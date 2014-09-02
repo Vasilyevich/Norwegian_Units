@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="Norwegian_Units">
+  <Package name="NOR_Insignias">
+
+    <Key ID="STR_NOR_M72_LAW_Name">
+      <English>M72 LAW</English>
+      <German>M72 LAW</German>
+    </Key>
+    <Key ID="STR_NOR_M72_LAW_Description">
+      <English>Light Anti-tank Weapon</English>
+      <German>Leichter Raketenwerfer</German>
+    </Key>
+    <Key ID="STR_NOR_M72_LAW_Used_Name">
+      <English>M72 LAW (Used)</English>
+      <German>M72 LAW (Gebraucht)</German>
+    </Key>
+    <Key ID="STR_NOR_M72_LAW_Used_Description">
+      <English>Used disposable rocket launcher</English>
+      <German>Grbrauchtes Raketenwerfer Rohr</German>
+    </Key>
+    <Key ID="STR_NOR_M72_LAW_R_Name1">
+      <English>66mm HEDP Rocket</English>
+      <German>66mm HEDP Rakete</German>
+    </Key>
+    <Key ID="STR_NOR_M72_LAW_R_Description">
+      <English>Used in the M72 LAW launcher</English>
+      <German>Ladung für den M72 LAW Launcher</German>
+    </Key>
+    <Key ID="STR_NOR_M72_LAW_R_Name2">
+      <English>66mm HEDP</English>
+      <German>66mm HEDP</German>
+    </Key>
+  </Package>
+</Project>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="Norwegian_Units">
+  <Package name="NOR_Insignias">
+
+    <Key ID="STR_NOR_Insignia_Flag_Color_Name">
+      <English>Norwegian Flag (Color)</English>
+      <German>Norwegische Flagge (Farbig)</German>
+    </Key>
+    <Key ID="STR_NOR_Insignia_Flag_BW_Name">
+      <English>Norwegian Flag (Black)</English>
+      <German>Norwegische Flagge (Schwarz)</German>
+    </Key>
+    <Key ID="STR_NOR_Insignia_Flag_IR_Name">
+      <English>Norwegian Flag (IR)</English>
+      <German>Norwegische Flagge (IR)</German>
+    </Key>
+    <Key ID="STR_NOR_Insignia_Medic_Color_Name">
+      <English>Medic (Color)</English>
+      <German>Sanitäter (Farbig)</German>
+    </Key>
+    <Key ID="STR_NOR_Insignia_Medic_BW_Name">
+      <English>Medic (Black)</English>
+      <German>Sanitäter (Schwarz)</German>
+    </Key>
+    <Key ID="STR_NOR_Insignia_MJK_Green_Name">
+      <English>MJK (Green)</English>
+      <German>MJK (Grün)</German>
+    </Key>
+    <Key ID="STR_NOR_Insignia_MJK_Desert_Name">
+      <English>MJK (Desert)</English>
+      <German>MJK (Sandfarben)</German>
+    </Key>
+    <Key ID="STR_NOR_Insignia_MJK_BW_Name">
+      <English>MJK (Black)</English>
+      <German>MJK (Schwarz)</German>
+    </Key>
+    <Key ID="STR_NOR_Insignia_FSK_Green_Name">
+      <English>FSK (Green)</English>
+      <German>FSK (Grün)</German>
+    </Key>
+    <Key ID="STR_NOR_Insignia_FSK_Desert_Name">
+      <English>FSK (Desert)</English>
+      <German>FSK (Sandfarben)</German>
+    </Key>
+    <Key ID="STR_NOR_Insignia_FSK_BW_Name">
+      <English>FSK (Black)</English>
+      <German>FSK (Schwarz)</German>
+    </Key>
+    <Key ID="STR_NOR_Insignia_viking_Green_Name">
+      <English>Viking (Green)</English>
+      <German>Vikinger (Grün)</German>
+    </Key>
+    <Key ID="STR_NOR_Insignia_viking_Desert_Name">
+      <English>Viking (Desert)</English>
+      <German>Vikinger (Sandfarben)</German>
+    </Key>
+    <Key ID="STR_NOR_Insignia_viking_BW_Name">
+      <English>Viking (Black)</English>
+      <German>Vikinger (Schwarz)</German>
+    </Key>
+    <Key ID="STR_NOR_Insignia_Medic_Desert_Name">
+      <English>Medic (Desert)</English>
+      <German>Sanitäter (Sandfarben)</German>
+    </Key>
+    <Key ID="STR_NOR_Insignia_Medic_Green_Name">
+      <English>Medic (Green)</English>
+      <German>Sanitäter (Grün)</German>
+    </Key>
+  </Package>
+</Project>
