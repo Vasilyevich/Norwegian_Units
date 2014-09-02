@@ -1,6 +1,3 @@
-Norwegian_Units
-===============
-
 Norwegian Units Modification for Arma 3
 =======================================
 
