@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="Norwegian_Units">
+  <Package name="NOR_Core">
+
+    <Key ID="STR_NOR_UGV_Wood_Name">
+      <English>UGV (Wood)</English>
+      <German>UGV (Grün)</German>
+    </Key>
+    <Key ID="STR_NOR_UGV_Wood_RCWS_Name">
+      <English>UGV RCWS (Wood)</English>
+      <German>UGV RCWS (Grün)</German>
+    </Key>
+    <Key ID="STR_NOR_UGV_Desert_Name">
+      <English>UGV (Desert)</English>
+      <German>UGV (Sandfraben)</German>
+    </Key>
+    <Key ID="STR_NOR_UGV_Desert_RCWS_Name">
+      <English>UGV RCWS (Desert)</English>
+      <German>UGV RCWS (Sandfraben)</German>
+    </Key>
+  </Package>
+</Project>
