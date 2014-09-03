@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Project name="Norwegian_Units">
-  <Package name="NOR_Core">
+  <Package name="NOR_Drones">
 
     <Key ID="STR_NOR_UGV_Wood_Name">
       <English>UGV (Wood)</English>
