@@ -278,7 +278,7 @@ class cfgWeapons
 		weaponPoolAvailable = 1;
 		author = "$STR_NOR_Author_Name";
 		displayName = "Combat Helmet (Wood)";
-		picture = "\NOR_Equip\data\indep\ui\icon_helmet_Wood.paa";
+		picture = "\NOR_Equip\data\helmet_indep\uinor_helmet_indep_wood_icon_ca.paa";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\NOR_Equip\data\helmet_indep\nor_helmet_indep_wood_co.paa"};
 	};
@@ -288,7 +288,7 @@ class cfgWeapons
 		weaponPoolAvailable = 1;
 		author = "$STR_NOR_Author_Name";
 		displayName = "Combat Helmet (Desert)";
-		picture = "\NOR_Equip\data\indep\ui\icon_helmet_Desert.paa";
+		picture = "\NOR_Equip\data\helmet_indep\uinor_helmet_indep_desert_icon_ca.paa";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\NOR_Equip\data\helmet_indep\nor_helmet_indep_desert_co.paa"};
 	};
@@ -298,7 +298,7 @@ class cfgWeapons
 		weaponPoolAvailable = 1;
 		author = "$STR_NOR_Author_Name";
 		displayName = "Officer Beret";
-		picture = "\NOR_Equip\data\beret\ui\icon_beret.paa";
+		picture = "\NOR_Equip\data\beret\ui\nor_beret_green_icon_ca.paa";
 		hiddenSelectionsTextures[] = {"\NOR_Equip\data\beret\nor_beret_green_co.paa"};
 	};
 	class NOR_Booniehat_Wood: H_Booniehat_khk
@@ -412,7 +412,7 @@ class cfgWeapons
 	class NOR_Cap_Headphones_Multi: H_Cap_headphones
 	{
 		displayName = "Nor Headphone Cap (Multi)";
-		picture = "\NOR_Equip\data\headphone_cap\ui\icon_cap_headphones_multi.paa";
+		picture = "\NOR_Equip\data\headphone_cap\ui\nor_headphone_cap_multi_icon_ca.paa";
 		model = "\A3\Characters_F\common\capb_headphones.p3d";
 		class ItemInfo: HeadgearItem
 		{
@@ -434,7 +434,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Nor Headphone Cap (Black)";
-		picture = "\NOR_Equip\data\headphone_cap\ui\icon_cap_headphones_black.paa";
+		picture = "\NOR_Equip\data\headphone_cap\ui\nor_headphone_cap_black_icon_ca.paa";
 		model = "\A3\Characters_F\common\capb_headphones.p3d";
 		class ItemInfo: HeadgearItem
 		{
@@ -454,7 +454,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Nor Headphone Cap (Blue)";
-		picture = "\NOR_Equip\data\headphone_cap\ui\icon_cap_headphones_navy.paa";
+		picture = "\NOR_Equip\data\headphone_cap\ui\nor_headphone_cap_blue_icon_ca.paa";
 		model = "\A3\Characters_F\common\capb_headphones.p3d";
 		class ItemInfo: HeadgearItem
 		{
@@ -474,7 +474,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Nor Headphone Cap (Blue)";
-		picture = "\NOR_Equip\data\headphone_cap\ui\icon_cap_headphones_navy.paa";
+		picture = "\NOR_Equip\data\headphone_cap\ui\nor_headphone_cap_coyote_icon_ca.paa";
 		model = "\A3\Characters_F\common\capb_headphones.p3d";
 		class ItemInfo: HeadgearItem
 		{
@@ -494,7 +494,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Nor Headphone Cap (Blue)";
-		picture = "\NOR_Equip\data\headphone_cap\ui\icon_cap_headphones_navy.paa";
+		picture = "\NOR_Equip\data\headphone_cap\ui\nor_headphone_cap_grey_icon_ca.paa";
 		model = "\A3\Characters_F\common\capb_headphones.p3d";
 		class ItemInfo: HeadgearItem
 		{

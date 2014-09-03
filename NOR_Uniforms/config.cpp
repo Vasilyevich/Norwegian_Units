@@ -329,7 +329,7 @@ class cfgWeapons
 		author = "$STR_NOR_Author_Name";
 		scope = 2;
 		displayName = "MJK Uniform (Grey)";
-		picture = "\NOR_Uniforms\data\mjk_variations\ui\nor_nato_uniform_mjk_grey_co.paa";
+		picture = "\NOR_Uniforms\data\mjk_variations\ui\nor_uniform_grey_icon_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_blufor_co.paa"};
@@ -346,7 +346,7 @@ class cfgWeapons
 		author = "$STR_NOR_Author_Name";
 		scope = 2;
 		displayName = "MJK Uniform Short (Grey)";
-		picture = "\NOR_Uniforms\data\mjk_variations\ui\nor_nato_uniform_mjk_grey_co.paa";
+		picture = "\NOR_Uniforms\data\mjk_variations\ui\nor_uniform_grey_short_icon_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_blufor_co.paa"};
@@ -363,7 +363,7 @@ class cfgWeapons
 		author = "$STR_NOR_Author_Name";
 		scope = 2;
 		displayName = "MJK Uniform (Coyote)";
-		picture = "\NOR_Uniforms\data\mjk_variations\ui\nor_nato_uniform_mjk_coyote_co.paa";
+		picture = "\NOR_Uniforms\data\mjk_variations\ui\nor_uniform_coyote_icon_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_blufor_co.paa"};
@@ -380,7 +380,7 @@ class cfgWeapons
 		author = "$STR_NOR_Author_Name";
 		scope = 2;
 		displayName = "MJK Uniform Short (Coyote)";
-		picture = "\NOR_Uniforms\data\mjk_variations\ui\nor_nato_uniform_mjk_coyote_co.paa";
+		picture = "\NOR_Uniforms\data\mjk_variations\ui\nor_uniform_coyote_short_icon_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_blufor_co.paa"};
