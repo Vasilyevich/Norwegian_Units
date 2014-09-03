@@ -27,7 +27,7 @@ class cfgWeapons
     {
     	_generalMacro = "V_PlateCarrier2_rgr";
         scope = 2;
-        picture = "\NOR_Equip\data\carrier_rig\ui\icon_carrier_1.paa";
+        picture = "\NOR_Equip\data\carrier_rig\ui\nor_carrier_rig_2_wood_icon_ca.paa";
         displayName = "Nor Carrier Big (Green)";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\NOR_Equip\data\carrier_rig\nor_carrier_standard_green_co.paa"};
@@ -46,7 +46,7 @@ class cfgWeapons
     {
     	_generalMacro = "V_PlateCarrier1_rgr";
         scope = 2;
-        picture = "\NOR_Equip\data\carrier_rig\ui\icon_carrier_1.paa";
+        picture = "\NOR_Equip\data\carrier_rig\ui\nor_carrier_rig_1_wood_icon_ca.paa";
         displayName = "Nor Carrier (Green)";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\NOR_Equip\data\carrier_rig\nor_carrier_standard_green_co.paa"};
@@ -65,7 +65,7 @@ class cfgWeapons
     {
     	_generalMacro = "V_PlateCarrier2_rgr";
         scope = 2;
-        picture = "\NOR_Equip\data\carrier_rig\ui\icon_carrier_1.paa";
+        picture = "\NOR_Equip\data\carrier_rig\ui\nor_carrier_rig_2_coyote_icon_ca.paa";
         displayName = "Nor Carrier Big (Coyote)";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\NOR_Equip\data\carrier_rig\nor_carrier_standard_navy_co.paa"};
@@ -84,7 +84,7 @@ class cfgWeapons
     {
     	_generalMacro = "V_PlateCarrier1_rgr";
         scope = 2;
-        picture = "\NOR_Equip\data\carrier_rig\ui\icon_carrier_1.paa";
+        picture = "\NOR_Equip\data\carrier_rig\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
         displayName = "Nor Carrier (Coyote)";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\NOR_Equip\data\carrier_rig\nor_carrier_standard_navy_co.paa"};
@@ -103,7 +103,7 @@ class cfgWeapons
     {
     	_generalMacro = "V_PlateCarrier2_rgr";
         scope = 2;
-        picture = "\NOR_Equip\data\carrier_rig\ui\icon_carrier_1.paa";
+        picture = "\NOR_Equip\data\carrier_rig\ui\nor_carrier_rig_2_coyote_icon_ca.paa";
         displayName = "Nor Carrier Big (Coyote)";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\NOR_Equip\data\carrier_rig\nor_carrier_standard_multi_co.paa"};
@@ -122,7 +122,7 @@ class cfgWeapons
     {
     	_generalMacro = "V_PlateCarrier1_rgr";
         scope = 2;
-        picture = "\NOR_Equip\data\carrier_rig\ui\icon_carrier_1.paa";
+        picture = "\NOR_Equip\data\carrier_rig\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
         displayName = "Nor Carrier (Coyote)";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\NOR_Equip\data\carrier_rig\nor_carrier_standard_multi_co.paa"};
@@ -141,7 +141,7 @@ class cfgWeapons
     {
     	_generalMacro = "V_PlateCarrier2_rgr";
         scope = 2;
-        picture = "\NOR_Equip\data\carrier_rig\ui\icon_carrier_1.paa";
+        picture = "\NOR_Equip\data\carrier_rig\ui\nor_carrier_rig_2_black_icon_ca.paa";
         displayName = "Nor Carrier Big (Black)";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\NOR_Equip\data\carrier_rig\nor_carrier_standard_black_co.paa"};
@@ -160,7 +160,7 @@ class cfgWeapons
     {
     	_generalMacro = "V_PlateCarrier1_rgr";
         scope = 2;
-        picture = "\NOR_Equip\data\carrier_rig\ui\icon_carrier_1.paa";
+        picture = "\NOR_Equip\data\carrier_rig\ui\nor_carrier_rig_1_black_icon_ca.paa";
         displayName = "Nor Carrier (Black)";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\NOR_Equip\data\carrier_rig\nor_carrier_standard_black_co.paa"};
@@ -179,7 +179,7 @@ class cfgWeapons
     {
     	_generalMacro = "V_PlateCarrier2_rgr";
         scope = 2;
-        picture = "\NOR_Equip\data\carrier_rig\ui\icon_carrier_1.paa";
+        picture = "\NOR_Equip\data\carrier_rig\ui\nor_carrier_rig_2_coyote_icon_ca.paa";
         displayName = "Nor Carrier Big (Coyote)";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\NOR_Equip\data\carrier_rig\nor_carrier_standard_wood_co.paa"};
@@ -198,7 +198,7 @@ class cfgWeapons
     {
     	_generalMacro = "V_PlateCarrier1_rgr";
         scope = 2;
-        picture = "\NOR_Equip\data\carrier_rig\ui\icon_carrier_1.paa";
+        picture = "\NOR_Equip\data\carrier_rig\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
         displayName = "Nor Carrier (Coyote)";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\NOR_Equip\data\carrier_rig\nor_carrier_standard_wood_co.paa"};
@@ -217,7 +217,7 @@ class cfgWeapons
     {
     	_generalMacro = "V_PlateCarrier2_rgr";
         scope = 2;
-        picture = "\NOR_Equip\data\carrier_rig\ui\icon_carrier_1.paa";
+        picture = "\NOR_Equip\data\carrier_rig\ui\nor_carrier_rig_2_coyote_icon_ca.paa";
         displayName = "Nor Carrier Big (Coyote)";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\NOR_Equip\data\carrier_rig\nor_carrier_standard_desert_co.paa"};
@@ -236,7 +236,7 @@ class cfgWeapons
     {
     	_generalMacro = "V_PlateCarrier1_rgr";
         scope = 2;
-        picture = "\NOR_Equip\data\carrier_rig\ui\icon_carrier_1.paa";
+        picture = "\NOR_Equip\data\carrier_rig\ui\nor_carrier_rig_1_coyote_icon_ca.paa";
         displayName = "Nor Carrier (Coyote)";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\NOR_Equip\data\carrier_rig\nor_carrier_standard_desert_co.paa"};
@@ -278,7 +278,7 @@ class cfgWeapons
 		weaponPoolAvailable = 1;
 		author = "$STR_NOR_Author_Name";
 		displayName = "Combat Helmet (Wood)";
-		picture = "\NOR_Equip\data\helmet_indep\uinor_helmet_indep_wood_icon_ca.paa";
+		picture = "\NOR_Equip\data\helmet_indep\ui\nor_helmet_indep_wood_icon_ca.paa";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\NOR_Equip\data\helmet_indep\nor_helmet_indep_wood_co.paa"};
 	};
@@ -288,7 +288,7 @@ class cfgWeapons
 		weaponPoolAvailable = 1;
 		author = "$STR_NOR_Author_Name";
 		displayName = "Combat Helmet (Desert)";
-		picture = "\NOR_Equip\data\helmet_indep\uinor_helmet_indep_desert_icon_ca.paa";
+		picture = "\NOR_Equip\data\helmet_indep\ui\nor_helmet_indep_desert_icon_ca.paa";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\NOR_Equip\data\helmet_indep\nor_helmet_indep_desert_co.paa"};
 	};
@@ -307,7 +307,7 @@ class cfgWeapons
 		weaponPoolAvailable = 1;
 		author = "$STR_NOR_Author_Name";
 		displayName = "Nor Booniehat (Wood)";
-		picture = "\NOR_Equip\data\booniehat\ui\icon_booniehat_Wood.paa";
+		picture = "\NOR_Equip\data\booniehat\ui\nor_booniehat_wood_icon_ca.paa";
 		hiddenSelectionsTextures[] = {"\NOR_Equip\data\booniehat\nor_booniehat_wood_icon_ca.paa"};
 	};
 	class NOR_Booniehat_Desert: H_Booniehat_khk
@@ -316,7 +316,7 @@ class cfgWeapons
 		weaponPoolAvailable = 1;
 		author = "$STR_NOR_Author_Name";
 		displayName = "Nor Booniehat (Desert)";
-		picture = "\NOR_Equip\data\booniehat\ui\icon_booniehat_Desert.paa";
+		picture = "\NOR_Equip\data\booniehat\ui\nor_booniehat_desert_icon_ca.paa";
 		hiddenSelectionsTextures[] = {"\NOR_Equip\data\booniehat\nor_booniehat_desert_icon_ca.paa"};
 	};
 	class NOR_Helmet_ECH_Light_Desert: H_HelmetB_light
@@ -362,7 +362,7 @@ class cfgWeapons
 		displayName = "MJK Helmet Light (Desert)";
 		picture = "\NOR_Equip\data\helmet_nato\ui\icon_helmet_ech_light_desert.paa";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"\NOR_Equip\data\helmet_nato\nor_helmet_nato_mjk_desert_co.paa"};
+		hiddenSelectionsTextures[] = {"\NOR_Equip\data\helmet_nato\nor_helmet_nato_fsk_desert_co.paa"};
 	};
 	class NOR_Helmet_ECH_Desert: H_HelmetSpecB
 	{
@@ -407,7 +407,7 @@ class cfgWeapons
 		displayName = "MJK Helmet (Desert)";
 		picture = "\NOR_Equip\data\helmet_nato\ui\icon_helmet_ech_light_desert.paa";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"\NOR_Equip\data\helmet_nato\nor_helmet_nato_mjk_desert_co.paa"};
+		hiddenSelectionsTextures[] = {"\NOR_Equip\data\helmet_nato\nor_helmet_nato_fsk_desert_co.paa"};
 	};
 	class NOR_Cap_Headphones_Multi: H_Cap_headphones
 	{
@@ -473,7 +473,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "Nor Headphone Cap (Blue)";
+		displayName = "Nor Headphone Cap (Coyote)";
 		picture = "\NOR_Equip\data\headphone_cap\ui\nor_headphone_cap_coyote_icon_ca.paa";
 		model = "\A3\Characters_F\common\capb_headphones.p3d";
 		class ItemInfo: HeadgearItem
@@ -493,7 +493,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "Nor Headphone Cap (Blue)";
+		displayName = "Nor Headphone Cap (Grey)";
 		picture = "\NOR_Equip\data\headphone_cap\ui\nor_headphone_cap_grey_icon_ca.paa";
 		model = "\A3\Characters_F\common\capb_headphones.p3d";
 		class ItemInfo: HeadgearItem
