@@ -5,4 +5,4 @@ http://forums.bistudio.com/showthread.php?179995-Norwegian-Units
 
 - Please ask before doing changes, feedback is appreciated.
 - 
-<img src="https://dl.dropboxusercontent.com/u/46305113/Norwegian%20Units/mod.png">
+<img src="https://dl.dropboxusercontent.com/u/46305113/Norwegian%20Units/Logo_Main_HD.png">
