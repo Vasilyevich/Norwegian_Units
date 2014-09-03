@@ -100,13 +100,13 @@ switch (_helmet ) do
 		_this addheadgear "NOR_Helmet_ECH_Multi";
 		};
 	case 10: {
-		_this addheadgear "NOR_Cap_Headphones_FSK_Coyote";
+		_this addheadgear "NOR_Cap_Headphones_Coyote";
 		};
 	case 11: {
-		_this addheadgear "NOR_Cap_Headphones_FSK_Grey";
+		_this addheadgear "NOR_Cap_Headphones_Grey";
 		};
 	case 12: {
-		_this addheadgear "NOR_Cap_Headphones_MJK_Navy";
+		_this addheadgear "NOR_Cap_Headphones_Navy";
 		};
 };
 // Randomize Facewear

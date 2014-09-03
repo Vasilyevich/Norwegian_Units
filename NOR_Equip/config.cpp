@@ -409,9 +409,9 @@ class cfgWeapons
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\NOR_Equip\data\helmet_nato\nor_helmet_nato_mjk_desert_co.paa"};
 	};
-	class NOR_Cap_Headphones_FSK_Multi: H_Cap_headphones
+	class NOR_Cap_Headphones_Multi: H_Cap_headphones
 	{
-		displayName = "FSK Cap (Multi)";
+		displayName = "Nor Headphone Cap (Multi)";
 		picture = "\NOR_Equip\data\headphone_cap\ui\icon_cap_headphones_multi.paa";
 		model = "\A3\Characters_F\common\capb_headphones.p3d";
 		class ItemInfo: HeadgearItem
@@ -429,11 +429,11 @@ class cfgWeapons
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\NOR_Equip\data\headphone_cap\nor_headphonecap_multi_co.paa"};
 	};
-	class NOR_Cap_Headphones_FSK_Black: H_Cap_headphones
+	class NOR_Cap_Headphones_Black: H_Cap_headphones
 	{
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "FSK Cap (Black)";
+		displayName = "Nor Headphone Cap (Black)";
 		picture = "\NOR_Equip\data\headphone_cap\ui\icon_cap_headphones_black.paa";
 		model = "\A3\Characters_F\common\capb_headphones.p3d";
 		class ItemInfo: HeadgearItem
@@ -449,11 +449,11 @@ class cfgWeapons
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\NOR_Equip\data\headphone_cap\nor_headphonecap_black_co.paa"};
 	};
-	class NOR_Cap_Headphones_MJK_Navy: H_Cap_headphones
+	class NOR_Cap_Headphones_Navy: H_Cap_headphones
 	{
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "MJK Cap (Blue)";
+		displayName = "Nor Headphone Cap (Blue)";
 		picture = "\NOR_Equip\data\headphone_cap\ui\icon_cap_headphones_navy.paa";
 		model = "\A3\Characters_F\common\capb_headphones.p3d";
 		class ItemInfo: HeadgearItem
@@ -469,11 +469,11 @@ class cfgWeapons
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\NOR_Equip\data\headphone_cap\nor_headphonecap_navy_co.paa"};
 	};
-	class NOR_Cap_Headphones_FSK_Coyote: H_Cap_headphones
+	class NOR_Cap_Headphones_Coyote: H_Cap_headphones
 	{
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "MJK Cap (Blue)";
+		displayName = "Nor Headphone Cap (Blue)";
 		picture = "\NOR_Equip\data\headphone_cap\ui\icon_cap_headphones_navy.paa";
 		model = "\A3\Characters_F\common\capb_headphones.p3d";
 		class ItemInfo: HeadgearItem
@@ -489,11 +489,11 @@ class cfgWeapons
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\NOR_Equip\data\headphone_cap\nor_headphonecap_coyote_co.paa"};
 	};
-	class NOR_Cap_Headphones_FSK_Grey: H_Cap_headphones
+	class NOR_Cap_Headphones_Grey: H_Cap_headphones
 	{
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "MJK Cap (Blue)";
+		displayName = "Nor Headphone Cap (Blue)";
 		picture = "\NOR_Equip\data\headphone_cap\ui\icon_cap_headphones_navy.paa";
 		model = "\A3\Characters_F\common\capb_headphones.p3d";
 		class ItemInfo: HeadgearItem

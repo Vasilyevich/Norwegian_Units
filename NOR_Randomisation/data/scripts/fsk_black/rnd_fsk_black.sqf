@@ -37,7 +37,7 @@ switch (_helmet ) do
 		_this addheadgear "NOR_Helmet_ECH_Light_Black";
 		};
 	case 3: {
-		_this addheadgear "NOR_Cap_Headphones_FSK_Black";
+		_this addheadgear "NOR_Cap_Headphones_Black";
 		};
 };
 // Randomize Facewear
