@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Project name="Norwegian_Units">
-  <Package name="NOR_Insignias">
+  <Package name="NOR_Law">
 
     <Key ID="STR_NOR_M72_LAW_Name">
       <English>M72 LAW</English>
