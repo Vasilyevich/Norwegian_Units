@@ -19,10 +19,10 @@ class CfgVehicles
 	class MRAP_01_gmg_base_F;
 	class NOR_MRAP1_Wood: MRAP_01_base_F
 	{
-		author = "Vasilyevich";
+		author = "$STR_NOR_Author_Name";
 		_generalMacro = "B_MRAP_01_F";
 		scope = 2;
-		displayName = "Nor Hunter (Wood)";
+		displayName = "$STR_NOR_MRAP1_Wood_Name";
 		crew = "NOR_T_S1_Wood";
 		typicalCargo[] = {"NOR_T_S1_Wood"};
 		side = 1;
@@ -31,10 +31,10 @@ class CfgVehicles
 	};
 	class NOR_MRAP1_HMG_Wood: MRAP_01_hmg_base_F
 	{
-		author = "Vasilyevich";
+		author = "$STR_NOR_Author_Name";
 		_generalMacro = "MRAP_01_hmg_base_F";
 		scope = 2;
-		displayName = "Nor Hunter HMG (Wood)";
+		displayName = "$STR_NOR_MRAP1_HMG_Wood_Name";
 		crew = "NOR_T_S1_Wood";
 		typicalCargo[] = {"NOR_T_S1_Wood"};
 		side = 1;
@@ -43,10 +43,10 @@ class CfgVehicles
 	};
 	class NOR_MRAP1_GMG_Wood: MRAP_01_gmg_base_F
 	{
-		author = "Vasilyevich";
+		author = "$STR_NOR_Author_Name";
 		_generalMacro = "MRAP_01_gmg_base_F";
 		scope = 2;
-		displayName = "Nor Hunter GMG (Wood)";
+		displayName = "$STR_NOR_MRAP1_GMG_Wood_Name";
 		crew = "NOR_T_S1_Wood";
 		typicalCargo[] = {"NOR_T_S1_Wood"};
 		side = 1;
@@ -55,10 +55,10 @@ class CfgVehicles
 	};
 	class NOR_MRAP1_Desert: MRAP_01_base_F
 	{
-		author = "Vasilyevich";
+		author = "$STR_NOR_Author_Name";
 		_generalMacro = "B_MRAP_01_F";
 		scope = 2;
-		displayName = "Nor Hunter (Desert)";
+		displayName = "$STR_NOR_MRAP1_Desert_Name";
 		crew = "NOR_T_S1_Desert";
 		typicalCargo[] = {"NOR_T_S1_Desert"};
 		side = 1;
@@ -67,10 +67,10 @@ class CfgVehicles
 	};
 	class NOR_MRAP1_HMG_Desert: MRAP_01_hmg_base_F
 	{
-		author = "Vasilyevich";
+		author = "$STR_NOR_Author_Name";
 		_generalMacro = "MRAP_01_hmg_base_F";
 		scope = 2;
-		displayName = "Nor Hunter HMG (Desert)";
+		displayName = "$STR_NOR_MRAP1_HMG_Desert_Name";
 		crew = "NOR_T_S1_Desert";
 		typicalCargo[] = {"NOR_T_S1_Desert"};
 		side = 1;
@@ -79,10 +79,10 @@ class CfgVehicles
 	};
 	class NOR_MRAP1_GMG_Desert: MRAP_01_gmg_base_F
 	{
-		author = "Vasilyevich";
+		author = "$STR_NOR_Author_Name";
 		_generalMacro = "MRAP_01_gmg_base_F";
 		scope = 2;
-		displayName = "Nor Hunter GMG (Desert)";
+		displayName = "$STR_NOR_MRAP1_GMG_Desert_Name";
 		crew = "NOR_T_S1_Desert";
 		typicalCargo[] = {"NOR_T_S1_Desert"};
 		side = 1;

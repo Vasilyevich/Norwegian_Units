@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="Norwegian_Units">
+  <Package name="NOR_Vehicles">
+
+    <Key ID="STR_NOR_MRAP1_Wood_Name">
+      <English>Nor Hunter (Wood)</English>
+      <German>Nor Hunter (Grün)</German>
+    </Key>
+    <Key ID="STR_NOR_MRAP1_HMG_Wood_Name">
+      <English>Nor Hunter HMG (Wood)</English>
+      <German>Nor Hunter HMG (Grün)</German>
+    </Key>
+    <Key ID="STR_NOR_MRAP1_GMG_Wood_Name">
+      <English>Nor Hunter GMG (Wood)</English>
+      <German>Nor Hunter GMG (Grün)</German>
+    </Key>
+    <Key ID="STR_NOR_MRAP1_Desert_Name">
+      <English>Nor Hunter (Desert)</English>
+      <German>Nor Hunter (Sandfarben)</German>
+    </Key>
+    <Key ID="STR_NOR_MRAP1_HMG_Desert_Name">
+      <English>Nor Hunter HMG (Desert)</English>
+      <German>Nor Hunter HMG (Sandfarben)</German>
+    </Key>
+    <Key ID="STR_NOR_MRAP1_GMG_Desert_Name">
+      <English>Nor Hunter GMG (Desert)</English>
+      <German>Nor Hunter GMG (Sandfarben)</German>
+    </Key>
+  </Package>
+</Project>
