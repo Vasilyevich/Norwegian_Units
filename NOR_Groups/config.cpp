@@ -25,7 +25,7 @@ class CfgGroups
 				name = "Infantry";
 				class NOR_Wood
 				{
-					name = "Fireteam (Woodland)";
+					name = "Fireteam (Wood)";
 					side = 1;
 					rarityGroup = 0.3;
 					faction = "Nor_Units";
@@ -81,7 +81,7 @@ class CfgGroups
 				};
 				class NOR_Wood_CO
 				{
-					name = "Command (Woodland)";
+					name = "Command (Wood)";
 					side = 1;
 					rarityGroup = 0.0;
 					faction = "Nor_Units";
