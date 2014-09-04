@@ -27,7 +27,7 @@ class CfgVehicles
 		crew = "NOR_Crew_Wood";
 		vehicleClass = "Armored";
 		hiddenSelections[] = {"Camo1","Camo2"};
-		hiddenSelectionsTextures[] = {"\NOR_Tanks\data\apc_indepNorwegian_APC_Tracked_Turret_Wood.paa","\NOR_Tanks\data\apc_indepNorwegian_APC_Tracked_Body_Wood.paa"};
+		hiddenSelectionsTextures[] = {"\NOR_Tanks\data\apc_indep\Norwegian_APC_Tracked_Turret_Wood.paa","\NOR_Tanks\data\apc_indep\Norwegian_APC_Tracked_Body_Wood.paa"};
 	};
 	class NOR_APC_Tracked_Desert: I_APC_tracked_03_cannon_F
 	{
@@ -40,7 +40,7 @@ class CfgVehicles
 		crew = "NOR_Crew_Desert";
 		vehicleClass = "Armored";
 		hiddenSelections[] = {"Camo1","Camo2"};
-		hiddenSelectionsTextures[] = {"\NOR_Tanks\data\apc_indepNorwegian_APC_Tracked_Turret_Desert.paa","\NOR_Tanks\data\apc_indepNorwegian_APC_Tracked_Body_Desert.paa"};
+		hiddenSelectionsTextures[] = {"\NOR_Tanks\data\apc_indep\Norwegian_APC_Tracked_Turret_Desert.paa","\NOR_Tanks\data\apc_indep\Norwegian_APC_Tracked_Body_Desert.paa"};
 	};
 	class I_MBT_03_BASE_F;
 	class NOR_MBT_Wood: I_MBT_03_BASE_F
