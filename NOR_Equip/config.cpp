@@ -308,7 +308,7 @@ class cfgWeapons
 		author = "$STR_NOR_Author_Name";
 		displayName = "Nor Booniehat (Wood)";
 		picture = "\NOR_Equip\data\booniehat\ui\nor_booniehat_wood_icon_ca.paa";
-		hiddenSelectionsTextures[] = {"\NOR_Equip\data\booniehat\nor_booniehat_wood_icon_ca.paa"};
+		hiddenSelectionsTextures[] = {"\NOR_Equip\data\booniehat\nor_booniehat_wood_co.paa"};
 	};
 	class NOR_Booniehat_Desert: H_Booniehat_khk
 	{
@@ -317,7 +317,7 @@ class cfgWeapons
 		author = "$STR_NOR_Author_Name";
 		displayName = "Nor Booniehat (Desert)";
 		picture = "\NOR_Equip\data\booniehat\ui\nor_booniehat_desert_icon_ca.paa";
-		hiddenSelectionsTextures[] = {"\NOR_Equip\data\booniehat\nor_booniehat_desert_icon_ca.paa"};
+		hiddenSelectionsTextures[] = {"\NOR_Equip\data\booniehat\nor_booniehat_desert_co.paa"};
 	};
 	class NOR_Helmet_ECH_Light_Desert: H_HelmetB_light
 	{
