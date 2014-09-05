@@ -219,8 +219,8 @@ class CfgVehicles
 		identityTypes[] = {"LanguageENG_F","Head_EURO"};
 		author = "$STR_NOR_Author_Name";
 		uniformClass = "NOR_Uniform_MJK_Navy";
-		linkedItems[] = {"NOR_Carrier_Standard_1_Navy","NOR_Helmet_ECH_Light_Navy","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"NOR_Carrier_Standard_1_Navy","NOR_Helmet_ECH_Light_Navy","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"NOR_Carrier_Standard_1_Navy","NOR_Helmet_ECH_Light_Desert","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"NOR_Carrier_Standard_1_Navy","NOR_Helmet_ECH_Light_Desert","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
 		class EventHandlers
 		{
 			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_mjk_navy.sqf""";
@@ -365,8 +365,8 @@ class CfgVehicles
 		author = "$STR_NOR_Author_Name";
 		uniformClass = "NOR_Uniform_MJK_Navy";
 		backpack = "NOR_Backpack_MJK_UGL_Navy";
-		linkedItems[] = {"NOR_Carrier_Standard_2_Navy","NOR_Helmet_ECH_navy","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"NOR_Carrier_Standard_2_Navy","NOR_Helmet_ECH_navy","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"NOR_Carrier_Standard_2_Navy","NOR_Helmet_ECH_Desert","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"NOR_Carrier_Standard_2_Navy","NOR_Helmet_ECH_Desert","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
 		Weapons[] = {"NOR_C8_UGL_RCO_IR_S","NOR_Glock_17_S","Throw","Put","Rangefinder"};
 		respawnWeapons[] = {"NOR_C8_UGL_RCO_IR_S","NOR_Glock_17_S","Throw","Put","Rangefinder"};
 		class EventHandlers
@@ -467,8 +467,8 @@ class CfgVehicles
 		author = "$STR_NOR_Author_Name";
 		uniformClass = "NOR_Uniform_Short_MJK_Navy";
 		backpack = "NOR_Backpack_MJK_AT_Navy";
-		linkedItems[] = {"NOR_Carrier_Standard_1_Navy","NOR_Helmet_ECH_Light_Navy","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"NOR_Carrier_Standard_1_Navy","NOR_Helmet_ECH_Light_Navy","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"NOR_Carrier_Standard_1_Navy","NOR_Helmet_ECH_Light_Desert","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"NOR_Carrier_Standard_1_Navy","NOR_Helmet_ECH_Light_Desert","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
 		Weapons[] = {"NOR_C8_MRCO_IR_S","NOR_Glock_17_S","mas_launch_maaws_F","Throw","Put","Rangefinder"};
 		respawnWeapons[] = {"NOR_C8_MRCO_IR_S","NOR_Glock_17_S","mas_launch_maaws_F","Throw","Put","Rangefinder"};
 		class EventHandlers
@@ -570,8 +570,8 @@ class CfgVehicles
 		author = "$STR_NOR_Author_Name";
 		uniformClass = "NOR_Uniform_Short_MJK_Navy";
 		backpack = "NOR_Backpack_MJK_AR_Navy";
-		linkedItems[] = {"NOR_Carrier_Standard_1_Navy","NOR_Helmet_ECH_Light_navy","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"NOR_Carrier_Standard_1_Navy","NOR_Helmet_ECH_Light_navy","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"NOR_Carrier_Standard_1_Navy","NOR_Helmet_ECH_Light_Desert","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"NOR_Carrier_Standard_1_Navy","NOR_Helmet_ECH_Light_Desert","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
 		Weapons[] = {"NOR_M249_ACO_IR","NOR_Glock_17_S","Throw","Put","Rangefinder"};
 		respawnWeapons[] = {"NOR_M249_ACO_IR","NOR_Glock_17_S","Throw","Put","Rangefinder"};
 		class EventHandlers
@@ -672,8 +672,8 @@ class CfgVehicles
 		author = "$STR_NOR_Author_Name";
 		uniformClass = "NOR_Uniform_MJK_Navy";
 		backpack = "NOR_Backpack_MJK_Navy";
-		linkedItems[] = {"NOR_Carrier_Standard_2_Navy","NOR_Helmet_ECH_Light_navy","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"NOR_Carrier_Standard_2_Navy","NOR_Helmet_ECH_Light_navy","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"NOR_Carrier_Standard_2_Navy","NOR_Helmet_ECH_Light_Desert","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"NOR_Carrier_Standard_2_Navy","NOR_Helmet_ECH_Light_Desert","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
 		Weapons[] = {"NOR_C8_MRCO_IR_S","NOR_Glock_17_S","NOR_M72_LAW","Throw","Put","Rangefinder"};
 		respawnWeapons[] = {"NOR_C8_MRCO_IR_S","NOR_Glock_17_S","NOR_M72_LAW","Throw","Put","Rangefinder"};
 		class EventHandlers
@@ -774,8 +774,8 @@ class CfgVehicles
 		author = "$STR_NOR_Author_Name";
 		uniformClass = "NOR_Uniform_MJK_Navy";
 		backpack = "NOR_Backpack_MJK_Navy";
-		linkedItems[] = {"NOR_Carrier_Standard_2_Navy","NOR_Helmet_ECH_Light_navy","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"NOR_Carrier_Standard_2_Navy","NOR_Helmet_ECH_Light_navy","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"NOR_Carrier_Standard_2_Navy","NOR_Helmet_ECH_Light_Desert","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"NOR_Carrier_Standard_2_Navy","NOR_Helmet_ECH_Light_Desert","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
 		Weapons[] = {"NOR_C8_MRCO_IR_S","NOR_Glock_17_S","Throw","Put","Rangefinder"};
 		respawnWeapons[] = {"NOR_C8_MRCO_IR_S","NOR_Glock_17_S","Throw","Put","Rangefinder"};
 		class EventHandlers
@@ -876,8 +876,8 @@ class CfgVehicles
 		author = "$STR_NOR_Author_Name";
 		uniformClass = "NOR_Uniform_MJK_Medic_Navy";
 		backpack = "NOR_Backpack_MJK_Medic_Navy";
-		linkedItems[] = {"NOR_Carrier_Standard_1_Navy","NOR_Helmet_ECH_navy","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"NOR_Carrier_Standard_1_Navy","NOR_Helmet_ECH_navy","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"NOR_Carrier_Standard_1_Navy","NOR_Helmet_ECH_Desert","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"NOR_Carrier_Standard_1_Navy","NOR_Helmet_ECH_Desert","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
 		Weapons[] = {"NOR_C8_MRCO_IR_S","NOR_Glock_17_S","Throw","Put","Rangefinder"};
 		respawnWeapons[] = {"NOR_C8_MRCO_IR_S","NOR_Glock_17_S","Throw","Put","Rangefinder"};
 		class EventHandlers
@@ -1024,8 +1024,8 @@ class CfgVehicles
 		author = "$STR_NOR_Author_Name";
 		uniformClass = "NOR_Uniform_MJK_Navy";
 		backpack = "NOR_Backpack_MJK_Breacher_navy";
-		linkedItems[] = {"NOR_Carrier_Standard_2_Navy","NOR_Helmet_ECH_Light_navy","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"NOR_Carrier_Standard_2_Navy","NOR_Helmet_ECH_Light_navy","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"NOR_Carrier_Standard_2_Navy","NOR_Helmet_ECH_Light_Desert","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"NOR_Carrier_Standard_2_Navy","NOR_Helmet_ECH_Light_Desert","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
 		class EventHandlers
 		{
 			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_mjk_navy.sqf""";
@@ -1088,8 +1088,8 @@ class CfgVehicles
 		author = "$STR_NOR_Author_Name";
 		uniformClass = "NOR_Uniform_Short_MJK_Navy";
 		backpack = "NOR_Backpack_MJK_Explo_navy";
-		linkedItems[] = {"NOR_Carrier_Standard_1_Navy","NOR_Helmet_ECH_navy","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"NOR_Carrier_Standard_1_Navy","NOR_Helmet_ECH_navy","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"NOR_Carrier_Standard_1_Navy","NOR_Helmet_ECH_Desert","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"NOR_Carrier_Standard_1_Navy","NOR_Helmet_ECH_Desert","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
 		Weapons[] = {"NOR_C8_MRCO_IR_S","NOR_Glock_17_S","Throw","Put","Rangefinder"};
 		respawnWeapons[] = {"NOR_C8_MRCO_IR_S","NOR_Glock_17_S","Throw","Put","Rangefinder"};
 		class EventHandlers

@@ -129,11 +129,6 @@ class CfgVehicles {
 				count = 5;
 				name = "NOR_Helmet_ECH_Light_Black";
 			};
-			class _xx_NOR_Helmet_ECH_Light_Navy
-			{
-				count = 5;
-				name = "NOR_Helmet_ECH_Light_Navy";
-			};
 			class _xx_NOR_Helmet_ECH_Desert
 			{
 				count = 5;
@@ -153,11 +148,6 @@ class CfgVehicles {
 			{
 				count = 5;
 				name = "NOR_Helmet_ECH_Black";
-			};
-			class _xx_NOR_Helmet_ECH_Navy
-			{
-				count = 5;
-				name = "NOR_Helmet_ECH_Navy";
 			};
 			class _xx_NOR_Cap_Headphones_Multi
 			{

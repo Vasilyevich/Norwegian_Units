@@ -27,7 +27,7 @@ class CfgVehicles
 		crew = "NOR_Crew_Wood";
 		vehicleClass = "Armored";
 		hiddenSelections[] = {"Camo1","Camo2"};
-		hiddenSelectionsTextures[] = {"\NOR_Tanks\data\apc_indep\Norwegian_APC_Tracked_Turret_Wood.paa","\NOR_Tanks\data\apc_indep\Norwegian_APC_Tracked_Body_Wood.paa"};
+		hiddenSelectionsTextures[] = {"\NOR_Tanks\data\apc_indep\nor_apc_indep_turret_wood_co.paa","\NOR_Tanks\data\apc_indep\nor_apc_indep_body_wood_co.paa"};
 	};
 	class NOR_APC_Tracked_Desert: I_APC_tracked_03_cannon_F
 	{
@@ -40,7 +40,7 @@ class CfgVehicles
 		crew = "NOR_Crew_Desert";
 		vehicleClass = "Armored";
 		hiddenSelections[] = {"Camo1","Camo2"};
-		hiddenSelectionsTextures[] = {"\NOR_Tanks\data\apc_indep\Norwegian_APC_Tracked_Turret_Desert.paa","\NOR_Tanks\data\apc_indep\Norwegian_APC_Tracked_Body_Desert.paa"};
+		hiddenSelectionsTextures[] = {"\NOR_Tanks\data\apc_indep\nor_apc_indep_turret_desert_co.paa","\NOR_Tanks\data\apc_indep\nor_apc_indep_body_desert_co.paa"};
 	};
 	class I_MBT_03_BASE_F;
 	class NOR_MBT_Wood: I_MBT_03_BASE_F
@@ -54,7 +54,7 @@ class CfgVehicles
 		faction = "Nor_Units";
 		vehicleClass = "Armored";
 		hiddenSelections[] = {"Camo1","Camo2","Camo3","HideHull","HideTurret","pasoffsetl","pasoffsetp"};
-		hiddenSelectionsTextures[] = {"\NOR_Tanks\data\mbt_indep\Norwegian_MBT_Body_Wood.paa","\NOR_Tanks\data\mbt_indep\Norwegian_MBT_Turret_Wood.paa","\NOR_Tanks\data\mbt_indep\Norwegian_MBT_HMG_Wood.paa","\NOR_Tanks\data\mbt_indep\Norwegian_MBT_Turret_Wood.paa","\NOR_Tanks\data\mbt_indep\Norwegian_MBT_Turret_Wood.paa","\NOR_Tanks\data\mbt_indep\Norwegian_MBT_Tracks.paa","\NOR_Tanks\data\mbt_indep\Norwegian_MBT_Tracks.paa"};
+		hiddenSelectionsTextures[] = {"\NOR_Tanks\data\mbt_indep\nor_mbt_indep_body_wood_co.paa","\NOR_Tanks\data\mbt_indep\nor_mbt_indep_turret_wood_co.paa","\NOR_Tanks\data\mbt_indep\nor_mbt_indep_extras_wood_co.paa","\NOR_Tanks\data\mbt_indep\nor_mbt_indep_turret_wood_co.paa","\NOR_Tanks\data\mbt_indep\nor_mbt_indep_turret_wood_co.paa","\NOR_Tanks\data\mbt_indep\nor_mbt_indep_tracks_co.paa","\NOR_Tanks\data\mbt_indep\nor_mbt_indep_tracks_co.paa"};
 		class EventHandlers
 		{
 			init = "if (local (_this select 0)) then {{(_this select 0) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
@@ -71,7 +71,7 @@ class CfgVehicles
 		faction = "Nor_Units";
 		vehicleClass = "Armored";
 		hiddenSelections[] = {"Camo1","Camo2","Camo3","HideHull","HideTurret","pasoffsetl","pasoffsetp"};
-		hiddenSelectionsTextures[] = {"\Norwegian_units\data\vehicles\Norwegian_MBT_Body_Desert.paa","\Norwegian_units\data\vehicles\Norwegian_MBT_Turret_Desert.paa","\Norwegian_units\data\vehicles\Norwegian_MBT_HMG_Desert.paa","\Norwegian_units\data\vehicles\Norwegian_MBT_Turret_Desert.paa","\Norwegian_units\data\vehicles\Norwegian_MBT_Turret_Desert.paa","\Norwegian_units\data\vehicles\Norwegian_MBT_Tracks.paa","\Norwegian_units\data\vehicles\Norwegian_MBT_Tracks.paa"};
+		hiddenSelectionsTextures[] = {"\NOR_Tanks\data\mbt_indep\nor_mbt_indep_body_desert_co.paa","\NOR_Tanks\data\mbt_indep\nor_mbt_indep_turret_desert_co.paa","\NOR_Tanks\data\mbt_indep\nor_mbt_indep_extras_desert_co.paa","\NOR_Tanks\data\mbt_indep\nor_mbt_indep_turret_desert_co.paa","\NOR_Tanks\data\mbt_indep\nor_mbt_indep_turret_desert_co.paa","\NOR_Tanks\data\mbt_indep\nor_mbt_indep_tracks_co.paa","\NOR_Tanks\data\mbt_indep\nor_mbt_indep_tracks_co.paa"};
 		class EventHandlers
 		{
 			init = "if (local (_this select 0)) then {{(_this select 0) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
