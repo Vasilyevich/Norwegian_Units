@@ -16,6 +16,33 @@ class CfgFactionClasses
 class CfgVehicles
 {
 	class I_APC_tracked_03_cannon_F;
+	class I_APC_Wheeled_03_cannon_F;
+	class NOR_APC_Wheeled_Wood: I_APC_Wheeled_03_cannon_F
+	{
+		side = 1;
+		faction = "Nor_Units";
+		author = "Vasilyevich";
+		_generalMacro = "I_APC_Wheeled_03_cannon_F";
+		scope = 2;
+		crew = "NOR_Crew_Wood";
+		displayName = "APC Wheeled (Wood)";
+		model = "\A3\armor_f_gamma\APC_Wheeled_03\APC_Wheeled_03_cannon_F.p3d";
+		hiddenSelections[] = {"camo1","camo2","camo3","camo4"};
+		hiddenSelectionsTextures[] = {"\NOR_Tanks\data\apc_indep_wheeled\nor_apc_indep_wheeled_body_wood_co.paa","\NOR_Tanks\data\apc_indep_wheeled\nor_apc_indep_wheeled_extras_wood_co.paa","\NOR_Tanks\data\apc_indep_wheeled\nor_apc_indep_wheeled_turret_wood_co.paa","\NOR_Tanks\data\apc_indep_wheeled\nor_apc_indep_wheeled_spacers_co.paa"};
+	};
+	class NOR_APC_Wheeled_Desert: I_APC_Wheeled_03_cannon_F
+	{
+		side = 1;
+		faction = "Nor_Units";
+		author = "Vasilyevich";
+		_generalMacro = "I_APC_Wheeled_03_cannon_F";
+		scope = 2;
+		crew = "NOR_Crew_Desert";
+		displayName = "APC Wheeled (Desert)";
+		model = "\A3\armor_f_gamma\APC_Wheeled_03\APC_Wheeled_03_cannon_F.p3d";
+		hiddenSelections[] = {"camo1","camo2","camo3","camo4"};
+		hiddenSelectionsTextures[] = {"\NOR_Tanks\data\apc_indep_wheeled\nor_apc_indep_wheeled_body_desert_co.paa","\NOR_Tanks\data\apc_indep_wheeled\nor_apc_indep_wheeled_extras_desert_co.paa","\NOR_Tanks\data\apc_indep_wheeled\nor_apc_indep_wheeled_turret_desert_co.paa","\NOR_Tanks\data\apc_indep_wheeled\nor_apc_indep_wheeled_spacers_co.paa"};
+	};
 	class NOR_APC_Tracked_Wood: I_APC_tracked_03_cannon_F
 	{
 		_generalMacro = "I_APC_tracked_03_cannon_F";
@@ -27,7 +54,7 @@ class CfgVehicles
 		crew = "NOR_Crew_Wood";
 		vehicleClass = "Armored";
 		hiddenSelections[] = {"Camo1","Camo2"};
-		hiddenSelectionsTextures[] = {"\NOR_Tanks\data\apc_indep\nor_apc_indep_turret_wood_co.paa","\NOR_Tanks\data\apc_indep\nor_apc_indep_body_wood_co.paa"};
+		hiddenSelectionsTextures[] = {"\NOR_Tanks\data\apc_indep_tracked\nor_apc_indep_tracked_turret_wood_co.paa","\NOR_Tanks\data\apc_indep_tracked\nor_apc_indep_tracked_body_wood_co.paa"};
 	};
 	class NOR_APC_Tracked_Desert: I_APC_tracked_03_cannon_F
 	{
@@ -40,7 +67,7 @@ class CfgVehicles
 		crew = "NOR_Crew_Desert";
 		vehicleClass = "Armored";
 		hiddenSelections[] = {"Camo1","Camo2"};
-		hiddenSelectionsTextures[] = {"\NOR_Tanks\data\apc_indep\nor_apc_indep_turret_desert_co.paa","\NOR_Tanks\data\apc_indep\nor_apc_indep_body_desert_co.paa"};
+		hiddenSelectionsTextures[] = {"\NOR_Tanks\data\apc_indep_tracked\nor_apc_indep_tracked_turret_desert_co.paa","\NOR_Tanks\data\apc_indep_tracked\nor_apc_indep_tracked_body_desert_co.paa"};
 	};
 	class I_MBT_03_BASE_F;
 	class NOR_MBT_Wood: I_MBT_03_BASE_F

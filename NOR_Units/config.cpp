@@ -23,6 +23,10 @@ class CfgVehicleClasses
 	{
 		displayName = "Men (Desert)";
 	};
+	class Special
+	{
+		displayName = "Men (Special)";
+	};
 	class FSK_Multi
 	{
 		displayName = "Men (FSK Multi)";
@@ -59,7 +63,7 @@ class CfgVehicles
 		faction = "Nor_Units";
 		displayName = "Sniper (Wood)";
 		identityTypes[] = {"LanguageENG_F","Head_EURO"};
-		vehicleClass = "Wood_Fireteam";
+		vehicleClass = "Special";
 		uniformClass = "NOR_Ghillie_Wood";
 		genericNames = "NOR_Names_Male";
 		author = "$STR_NOR_Author_Name";
@@ -76,7 +80,7 @@ class CfgVehicles
 		_generalMacro = "B_Soldier_F";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "Sniper (Desert)";
+		displayName = "Special (Desert)";
 		identityTypes[] = {"LanguageENG_F","Head_EURO"};
 		vehicleClass = "Desert_Fireteam";
 		uniformClass = "NOR_Ghillie_Desert";
@@ -245,7 +249,7 @@ class CfgVehicles
 		faction = "Nor_Units";
 		displayName = "Spotter (Wood)";
 		identityTypes[] = {"LanguageENG_F","Head_EURO"};
-		vehicleClass = "Wood_Fireteam";
+		vehicleClass = "Special";
 		uniformClass = "NOR_Ghillie_Wood";
 		genericNames = "NOR_Names_Male";
 		author = "$STR_NOR_Author_Name";
@@ -265,7 +269,7 @@ class CfgVehicles
 		faction = "Nor_Units";
 		displayName = "Spotter (Desert)";
 		identityTypes[] = {"LanguageENG_F","Head_EURO"};
-		vehicleClass = "Desert_Fireteam";
+		vehicleClass = "Special";
 		uniformClass = "NOR_Ghillie_Desert";
 		genericNames = "NOR_Names_Male";
 		author = "$STR_NOR_Author_Name";
@@ -868,7 +872,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		side = 1;
 		faction = "Nor_Units";
-		vehicleClass = "Wood_Fireteam";
+		vehicleClass = "Special";
 		displayName = "Troop CO (Wood)";
 		identityTypes[] = {"LanguageENG_F","Head_EURO"};
 		author = "$STR_NOR_Author_Name";
@@ -888,7 +892,7 @@ class CfgVehicles
 		_generalMacro = "B_Soldier_F";
 		scope = 2;
 		scopeCurator = 2;
-		vehicleClass = "Desert_Fireteam";
+		vehicleClass = "Special";
 		displayName = "Troop CO (Desert)";
 		identityTypes[] = {"LanguageENG_F","Head_EURO"};
 		author = "$STR_NOR_Author_Name";
@@ -904,7 +908,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		side = 1;
 		faction = "Nor_Units";
-		vehicleClass = "Wood_Fireteam";
+		vehicleClass = "Special";
 		displayName = "Troop NCO (Wood)";
 		identityTypes[] = {"LanguageENG_F","Head_EURO"};
 		author = "$STR_NOR_Author_Name";
@@ -924,7 +928,7 @@ class CfgVehicles
 		_generalMacro = "B_Soldier_F";
 		scope = 2;
 		scopeCurator = 2;
-		vehicleClass = "Desert_Fireteam";
+		vehicleClass = "Special";
 		displayName = "Troop NCO (Desert)";
 		identityTypes[] = {"LanguageENG_F","Head_EURO"};
 		author = "$STR_NOR_Author_Name";
