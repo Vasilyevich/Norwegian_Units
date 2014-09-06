@@ -17,6 +17,52 @@ class CfgVehicles
 {
 	class I_APC_tracked_03_cannon_F;
 	class I_APC_Wheeled_03_cannon_F;
+	class B_MBT_01_arty_F;
+	class B_APC_Tracked_01_AA_F;
+	class NOR_Arty_Tracked_Wood: B_MBT_01_arty_F
+	{
+		scope = 2;
+		side = 1;
+		faction = "Nor_Units";
+		author = "Vasilyevich";
+		displayName = "Sholef (Wood)";
+		crew = "NOR_Crew_Standard";
+		hiddenSelectionsTextures[] = {"\NOR_Tanks\data\aa_and_arty_wood\nor_mbt_nato_body_wood_co.paa","\NOR_Tanks\data\aa_and_arty_wood\nor_arty_standard_turret_wood_co.paa","\NOR_Tanks\data\aa_and_arty_wood\nor_arty_standard_extras_wood_co.paa"};
+		availableForSupportTypes[] = {"Artillery"};
+	};
+	class NOR_AA_Tracked_Wood: B_APC_Tracked_01_AA_F
+	{
+		scope = 2;
+		side = 1;
+		faction = "Nor_Units";
+		author = "Vasilyevich";
+		displayName = "Bardelas (Wood)";
+		crew = "NOR_Crew_Standard";
+		hiddenSelections[] = {"Camo1","Camo2","Camo3"};
+		hiddenSelectionsTextures[] = {"\NOR_Tanks\data\aa_and_arty_wood\nor_apc_nato_body_wood_co.paa","\NOR_Tanks\data\aa_and_arty_wood\nor_mbt_nato_body_wood_co.paa","\NOR_Tanks\data\aa_and_arty_wood\nor_aa_standard_turret_wood_co.paa"};
+	};
+	class NOR_Arty_Tracked_Desert: B_MBT_01_arty_F
+	{
+		scope = 2;
+		side = 1;
+		faction = "Nor_Units";
+		author = "Vasilyevich";
+		displayName = "Sholef (Desert)";
+		crew = "NOR_Crew_Standard";
+		hiddenSelectionsTextures[] = {"\NOR_Tanks\data\aa_and_arty_desert\nor_mbt_nato_body_desert_co.paa","\NOR_Tanks\data\aa_and_arty_desert\nor_arty_standard_turret_desert_co.paa","\NOR_Tanks\data\aa_and_arty_desert\nor_arty_standard_extras_desert_co.paa"};
+		availableForSupportTypes[] = {"Artillery"};
+	};
+	class NOR_AA_Tracked_Desert: B_APC_Tracked_01_AA_F
+	{
+		scope = 2;
+		side = 1;
+		faction = "Nor_Units";
+		author = "Vasilyevich";
+		displayName = "Bardelas (Desert)";
+		crew = "NOR_Crew_Standard";
+		hiddenSelections[] = {"Camo1","Camo2","Camo3"};
+		hiddenSelectionsTextures[] = {"\NOR_Tanks\data\aa_and_arty_desert\nor_apc_nato_body_desert_co.paa","\NOR_Tanks\data\aa_and_arty_desert\nor_mbt_nato_body_desert_co.paa","\NOR_Tanks\data\aa_and_arty_desert\nor_aa_standard_turret_desert_co.paa"};
+	};
 	class NOR_APC_Wheeled_Wood: I_APC_Wheeled_03_cannon_F
 	{
 		side = 1;
@@ -24,7 +70,7 @@ class CfgVehicles
 		author = "Vasilyevich";
 		_generalMacro = "I_APC_Wheeled_03_cannon_F";
 		scope = 2;
-		crew = "NOR_Crew_Wood";
+		crew = "NOR_Crew_Standard";
 		displayName = "APC Wheeled (Wood)";
 		model = "\A3\armor_f_gamma\APC_Wheeled_03\APC_Wheeled_03_cannon_F.p3d";
 		hiddenSelections[] = {"camo1","camo2","camo3","camo4"};
@@ -37,7 +83,7 @@ class CfgVehicles
 		author = "Vasilyevich";
 		_generalMacro = "I_APC_Wheeled_03_cannon_F";
 		scope = 2;
-		crew = "NOR_Crew_Desert";
+		crew = "NOR_Crew_Standard";
 		displayName = "APC Wheeled (Desert)";
 		model = "\A3\armor_f_gamma\APC_Wheeled_03\APC_Wheeled_03_cannon_F.p3d";
 		hiddenSelections[] = {"camo1","camo2","camo3","camo4"};
@@ -51,7 +97,7 @@ class CfgVehicles
 		faction = "Nor_Units";
 		author = "Vasilyevich";
 		displayName = "Tracked APC (Wood)";
-		crew = "NOR_Crew_Wood";
+		crew = "NOR_Crew_Standard";
 		vehicleClass = "Armored";
 		hiddenSelections[] = {"Camo1","Camo2"};
 		hiddenSelectionsTextures[] = {"\NOR_Tanks\data\apc_indep_tracked\nor_apc_indep_tracked_turret_wood_co.paa","\NOR_Tanks\data\apc_indep_tracked\nor_apc_indep_tracked_body_wood_co.paa"};
@@ -64,7 +110,7 @@ class CfgVehicles
 		faction = "Nor_Units";
 		author = "Vasilyevich";
 		displayName = "Tracked APC (Desert)";
-		crew = "NOR_Crew_Desert";
+		crew = "NOR_Crew_Standard";
 		vehicleClass = "Armored";
 		hiddenSelections[] = {"Camo1","Camo2"};
 		hiddenSelectionsTextures[] = {"\NOR_Tanks\data\apc_indep_tracked\nor_apc_indep_tracked_turret_desert_co.paa","\NOR_Tanks\data\apc_indep_tracked\nor_apc_indep_tracked_body_desert_co.paa"};
@@ -77,7 +123,7 @@ class CfgVehicles
 		displayName = "MBT (Wood)";
 		side = 1;
 		author = "Vasilyevich";
-		crew = "NOR_Crew_Wood";
+		crew = "NOR_Crew_Standard";
 		faction = "Nor_Units";
 		vehicleClass = "Armored";
 		hiddenSelections[] = {"Camo1","Camo2","Camo3","HideHull","HideTurret","pasoffsetl","pasoffsetp"};
@@ -94,7 +140,7 @@ class CfgVehicles
 		displayName = "MBT (Desert)";
 		side = 1;
 		author = "Vasilyevich";
-		crew = "NOR_Crew_Desert";
+		crew = "NOR_Crew_Standard";
 		faction = "Nor_Units";
 		vehicleClass = "Armored";
 		hiddenSelections[] = {"Camo1","Camo2","Camo3","HideHull","HideTurret","pasoffsetl","pasoffsetp"};

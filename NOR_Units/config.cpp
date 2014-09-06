@@ -3,7 +3,7 @@ class CfgPatches
 {
 	class NOR_Units
 	{
-		units[] = {"NOR_Sniper_Wood","NOR_Sniper_Desert","NOR_Crew_Desert","NOR_Crew_WOOD","NOR_MM_Desert","NOR_MM_Wood","NOR_MJK_MM_Navy","NOR_FSK_MM_Multi","NOR_SL_Wood","NOR_FSK_MM_Black","NOR_Spotter_Desert","NOR_Spotter_Wood","NOR_FSK_SL_Multi","NOR_SL_Desert","NOR_MJK_SL_Navy","NOR_FSK_SL_Black","NOR_T_AT_Desert","NOR_T_AT_Wood","NOR_FSK_AT_Black","NOR_FSK_AT_Multi","NOR_T_AR_Wood","NOR_MJK_AT_Navy","NOR_FSK_AR_Multi","NOR_T_AR_Desert","NOR_MJK_AR_Navy","NOR_FSK_AR_Black","NOR_FTL_Desert","NOR_FTL_Wood","NOR_FSK_FTL_Black","NOR_FSK_FTL_Multi","NOR_T_S1_Wood","NOR_MJK_FTL_Navy","NOR_FSK_S1_Black","NOR_T_S1_Desert","NOR_MJK_S1_Navy","NOR_FSK_S1_Multi","NOR_T_MEDIC_Desert","NOR_T_MEDIC_Wood","NOR_T_CO_Wood","NOR_FSK_MEDIC_Multi","NOR_FSK_MEDIC_Black","NOR_MJK_MEDIC_Navy","NOR_T_NCO_Wood","NOR_T_CO_Desert","NOR_FSK_Breacher_Multi","NOR_T_NCO_Desert","NOR_MJK_Breacher_Navy","NOR_FSK_Breacher_Black","NOR_FSK_ExploSpec_Black","NOR_FSK_ExploSpec_Multi","NOR_MJK_ExploSpec_Navy"};
+		units[] = {"NOR_Sniper_Wood","NOR_Sniper_Desert","NOR_Crew_Standard","NOR_MM_Desert","NOR_MM_Wood","NOR_MJK_MM_Navy","NOR_FSK_MM_Multi","NOR_SL_Wood","NOR_FSK_MM_Black","NOR_Spotter_Desert","NOR_Spotter_Wood","NOR_FSK_SL_Multi","NOR_SL_Desert","NOR_MJK_SL_Navy","NOR_FSK_SL_Black","NOR_T_AT_Desert","NOR_T_AT_Wood","NOR_FSK_AT_Black","NOR_FSK_AT_Multi","NOR_T_AR_Wood","NOR_MJK_AT_Navy","NOR_FSK_AR_Multi","NOR_T_AR_Desert","NOR_MJK_AR_Navy","NOR_FSK_AR_Black","NOR_FTL_Desert","NOR_FTL_Wood","NOR_FSK_FTL_Black","NOR_FSK_FTL_Multi","NOR_T_S1_Wood","NOR_MJK_FTL_Navy","NOR_FSK_S1_Black","NOR_T_S1_Desert","NOR_MJK_S1_Navy","NOR_FSK_S1_Multi","NOR_T_MEDIC_Desert","NOR_T_MEDIC_Wood","NOR_T_CO_Wood","NOR_FSK_MEDIC_Multi","NOR_FSK_MEDIC_Black","NOR_MJK_MEDIC_Navy","NOR_T_NCO_Wood","NOR_T_CO_Desert","NOR_FSK_Breacher_Multi","NOR_T_NCO_Desert","NOR_MJK_Breacher_Navy","NOR_FSK_Breacher_Black","NOR_FSK_ExploSpec_Black","NOR_FSK_ExploSpec_Multi","NOR_MJK_ExploSpec_Navy"};
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"NOR_Core","NOR_Backpacks","NOR_Equip","NOR_Law","NOR_Uniforms"};
@@ -86,38 +86,25 @@ class CfgVehicles
 		uniformClass = "NOR_Ghillie_Desert";
 		author = "$STR_NOR_Author_Name";
 	};
-	class NOR_Crew_WOOD: B_crew_F
+	class NOR_Crew_Standard: B_crew_F
 	{
 		_generalMacro = "B_Soldier_F";
 		scope = 2;
 		scopeCurator = 2;
 		side = 1;
 		faction = "Nor_Units";
-		displayName = "Crewman (Wood)";
+		displayName = "Crewman";
 		identityTypes[] = {"LanguageENG_F","Head_EURO"};
 		author = "$STR_NOR_Author_Name";
-		vehicleClass = "Wood_Fireteam";
+		vehicleClass = "Special";
 		nakedUniform = "NOR_BasicBody";
-		uniformClass = "NOR_Uniform_Crew_Wood";
+		uniformClass = "NOR_Uniform_Crew_Standard";
 		linkedItems[] = {"V_TacVest_khk","NOR_Helmet_Crew","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_TacVest_khk","NOR_Helmet_Crew","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
 		Weapons[] = {"hgun_PDW2000_F","hgun_mas_glock_F","Throw","Put","Binocular"};
 		respawnWeapons[] = {"hgun_PDW2000_F","hgun_mas_glock_F","Throw","Put","Binocular"};
 		Magazines[] = {"30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","Chemlight_green","Chemlight_green","Chemlight_green","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag"};
 		respawnMagazines[] = {"30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","Chemlight_green","Chemlight_green","Chemlight_green","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag"};
-	};
-	class NOR_Crew_Desert: NOR_Crew_WOOD
-	{
-		_generalMacro = "B_Soldier_F";
-		scope = 2;
-		scopeCurator = 2;
-		vehicleClass = "Desert_Fireteam";
-		displayName = "Crewman (Desert)";
-		identityTypes[] = {"LanguageENG_F","Head_EURO"};
-		author = "$STR_NOR_Author_Name";
-		uniformClass = "NOR_Uniform_Crew_Desert";
-		linkedItems[] = {"V_TacVest_khk","NOR_Helmet_Crew","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_TacVest_khk","NOR_Helmet_Crew","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
 	};
 	class NOR_MM_Wood: B_soldier_M_F
 	{

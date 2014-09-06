@@ -2,8 +2,8 @@ class CfgPatches
 {
 	class NOR_Uniforms
 	{
-		units[] = {"NOR_Uniform_Base_MJK_Grey_Short","NOR_Uniform_Base_MJK_Grey","NOR_Uniform_Base_MJK_Coyote_Short","NOR_Uniform_Base_MJK_Coyote","NOR_Uniform_Base_FSK_Grey_Short","NOR_Uniform_Base_FSK_Grey","NOR_Uniform_Base_FSK_Coyote_Short","NOR_Uniform_Base_FSK_Coyote","NOR_Uniform_Base_Medic_Desert","NOR_Uniform_Base_Medic_Wood","NOR_Uniform_Base_MJK_Medic_Navy","NOR_Uniform_Base_FSK_Medic_Black","NOR_Uniform_Base_FSK_Medic_Multi","NOR_Uniform_Base_MJK_Navy_Short","NOR_Uniform_Base_FSK_Black_Short","NOR_Uniform_Base_FSK_Multi_Short","NOR_Uniform_Base_MJK_Navy","NOR_Uniform_Base_FSK_Black","NOR_Uniform_Base_FSK_Multi","NOR_Uniform_Base_Officer_Desert","NOR_Uniform_Base_Officer_Wood","NOR_Uniform_Base_Desert","NOR_Uniform_Base_Wood","NOR_Uniform_Base_Crew_Desert","NOR_Uniform_Base_Crew_Wood","NOR_Uniform_Base_Ghillie_Desert","NOR_Uniform_Base_Ghillie_Wood"};
-		weapons[] = {"NOR_Uniform_MJK_Grey","NOR_Uniform_Short_MJK_Grey","NOR_Uniform_MJK_Coyote","NOR_Uniform_Short_MJK_Coyote","NOR_Uniform_Short_FSK_Coyote","NOR_Uniform_FSK_Coyote","NOR_Uniform_Short_FSK_Grey","NOR_Uniform_FSK_Grey","NOR_Uniform_Medic_Desert","NOR_Uniform_Medic_Wood","NOR_Uniform_MJK_Medic_Navy","NOR_Uniform_FSK_Medic_Black","NOR_Uniform_FSK_Medic_Multi","NOR_Uniform_Short_MJK_Navy","NOR_Uniform_Short_FSK_Black","NOR_Uniform_Short_FSK_Multi","NOR_Uniform_MJK_Navy","NOR_Uniform_FSK_Black","NOR_Uniform_FSK_Multi","NOR_Uniform_Officer_Desert","NOR_Uniform_Desert","NOR_Uniform_Crew_Desert","NOR_Ghillie_Desert","NOR_Uniform_Officer_Wood","NOR_Uniform_Wood","NOR_Uniform_Crew_Wood","NOR_Ghillie_Wood"};
+		units[] = {"NOR_Uniform_Base_MJK_Grey_Short","NOR_Uniform_Base_MJK_Grey","NOR_Uniform_Base_MJK_Coyote_Short","NOR_Uniform_Base_MJK_Coyote","NOR_Uniform_Base_FSK_Grey_Short","NOR_Uniform_Base_FSK_Grey","NOR_Uniform_Base_FSK_Coyote_Short","NOR_Uniform_Base_FSK_Coyote","NOR_Uniform_Base_Medic_Desert","NOR_Uniform_Base_Medic_Wood","NOR_Uniform_Base_MJK_Medic_Navy","NOR_Uniform_Base_FSK_Medic_Black","NOR_Uniform_Base_FSK_Medic_Multi","NOR_Uniform_Base_MJK_Navy_Short","NOR_Uniform_Base_FSK_Black_Short","NOR_Uniform_Base_FSK_Multi_Short","NOR_Uniform_Base_MJK_Navy","NOR_Uniform_Base_FSK_Black","NOR_Uniform_Base_FSK_Multi","NOR_Uniform_Base_Officer_Desert","NOR_Uniform_Base_Officer_Wood","NOR_Uniform_Base_Desert","NOR_Uniform_Base_Wood","NOR_Uniform_Base_Crew_Standard","NOR_Uniform_Base_Ghillie_Desert","NOR_Uniform_Base_Ghillie_Wood"};
+		weapons[] = {"NOR_Uniform_MJK_Grey","NOR_Uniform_Short_MJK_Grey","NOR_Uniform_MJK_Coyote","NOR_Uniform_Short_MJK_Coyote","NOR_Uniform_Short_FSK_Coyote","NOR_Uniform_FSK_Coyote","NOR_Uniform_Short_FSK_Grey","NOR_Uniform_FSK_Grey","NOR_Uniform_Medic_Desert","NOR_Uniform_Medic_Wood","NOR_Uniform_MJK_Medic_Navy","NOR_Uniform_FSK_Medic_Black","NOR_Uniform_FSK_Medic_Multi","NOR_Uniform_Short_MJK_Navy","NOR_Uniform_Short_FSK_Black","NOR_Uniform_Short_FSK_Multi","NOR_Uniform_MJK_Navy","NOR_Uniform_FSK_Black","NOR_Uniform_FSK_Multi","NOR_Uniform_Officer_Desert","NOR_Uniform_Desert","NOR_Ghillie_Desert","NOR_Uniform_Officer_Wood","NOR_Uniform_Wood","NOR_Uniform_Crew_Standard","NOR_Ghillie_Wood"};
 		requiredVersion = 0.1;
 		requiredAddons[] = {};
 	};
@@ -151,24 +151,14 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"\NOR_Uniforms\data\standard_desert\nor_nato_uniform_desert_co.paa"};
 		model = "A3\Characters_F\BLUFOR\b_sniper.p3d";
 	};
-	class NOR_Uniform_Base_Crew_Wood: B_Soldier_F
+	class NOR_Uniform_Base_Crew_Standard: B_Soldier_F
 	{
 		scope = 1;
 		scopeCurator = 0;
 		modelsides[] = {3,2,1,0};
-		uniformClass = "NOR_Uniform_Crew_Wood";
+		uniformClass = "NOR_Uniform_Crew_Standard";
 		hiddenSelections[] = {"Camo","insignia"};
-		hiddenSelectionsTextures[] = {"\NOR_Uniforms\data\standard_wood\nor_coverall_wood_co.paa"};
-		model = "\A3\Characters_F\Common\coveralls.p3d";
-	};
-	class NOR_Uniform_Base_Crew_Desert: B_Soldier_F
-	{
-		scope = 1;
-		scopeCurator = 0;
-		modelsides[] = {3,2,1,0};
-		uniformClass = "NOR_Uniform_Crew_Desert";
-		hiddenSelections[] = {"Camo","insignia"};
-		hiddenSelectionsTextures[] = {"\NOR_Uniforms\data\standard_desert\nor_coverall_desert_co.paa"};
+		hiddenSelectionsTextures[] = {"\NOR_Uniforms\data\coveralls\nor_coverall_green_co.paa"};
 		model = "\A3\Characters_F\Common\coveralls.p3d";
 	};
 	class NOR_Uniform_Base_Wood: B_Soldier_F
@@ -477,11 +467,11 @@ class cfgWeapons
 			mass = 60;
 		};
 	};
-	class NOR_Uniform_Crew_Wood: Uniform_Base
+	class NOR_Uniform_Crew_Standard: Uniform_Base
 	{
 		author = "$STR_NOR_Author_Name";
 		scope = 2;
-		displayName = "Nor Cew Uniform (Wood)";
+		displayName = "Nor Crew Uniform";
 		picture = "\NOR_Uniforms\data\standard_wood\ui\nor_coverall_wood_icon_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -489,7 +479,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "NOR_Uniform_Base_Crew_Wood";
+			uniformClass = "NOR_Uniform_Base_Crew_Standard";
 			containerClass = "Supply40";
 			mass = 80;
 		};
@@ -543,23 +533,6 @@ class cfgWeapons
 			uniformClass = "NOR_Uniform_Base_Ghillie_Desert";
 			containerClass = "Supply60";
 			mass = 60;
-		};
-	};
-	class NOR_Uniform_Crew_Desert: Uniform_Base
-	{
-		author = "$STR_NOR_Author_Name";
-		scope = 2;
-		displayName = "Nor Cew Uniform (Desert)";
-		picture = "\NOR_Uniforms\data\standard_desert\ui\nor_coverall_desert_icon_ca.paa";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_blufor_co.paa"};
-		class ItemInfo: UniformItem
-		{
-			uniformModel = "-";
-			uniformClass = "NOR_Uniform_Base_Crew_Desert";
-			containerClass = "Supply40";
-			mass = 80;
 		};
 	};
 	class NOR_Uniform_Desert: Uniform_Base
