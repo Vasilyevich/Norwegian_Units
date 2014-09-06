@@ -1,4 +1,3 @@
-
 /*
 Norwegian Units equip function, by Vasilyevich
 this code is made for the ArmA 3 Norwegian Units modification

@@ -70,10 +70,6 @@ class CfgVehicles
 		respawnWeapons[] = {"NOR_Barrett_M82_LRPS","NOR_Glock_17_S","Throw","Put","Rangefinder"};
 		Magazines[] = {"5Rnd_mas_127x99_T_Stanag","5Rnd_mas_127x99_T_Stanag","5Rnd_mas_127x99_Stanag","5Rnd_mas_127x99_Stanag","5Rnd_mas_127x99_Stanag","5Rnd_mas_127x99_Stanag","5Rnd_mas_127x99_Stanag","5Rnd_mas_127x99_Stanag","SmokeShell","SmokeShell","Chemlight_green","Chemlight_green","Chemlight_green","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag"};
 		respawnMagazines[] = {"5Rnd_mas_127x99_T_Stanag","5Rnd_mas_127x99_T_Stanag","5Rnd_mas_127x99_Stanag","5Rnd_mas_127x99_Stanag","5Rnd_mas_127x99_Stanag","5Rnd_mas_127x99_Stanag","5Rnd_mas_127x99_Stanag","5Rnd_mas_127x99_Stanag","SmokeShell","SmokeShell","Chemlight_green","Chemlight_green","Chemlight_green","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag"};
-		class EventHandlers
-		{
-			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_script.sqf""";
-		};
 	};
 	class NOR_Sniper_Desert: NOR_Sniper_Wood
 	{
@@ -85,10 +81,6 @@ class CfgVehicles
 		vehicleClass = "Desert_Fireteam";
 		uniformClass = "NOR_Ghillie_Desert";
 		author = "$STR_NOR_Author_Name";
-		class EventHandlers
-		{
-			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_script.sqf""";
-		};
 	};
 	class NOR_Crew_WOOD: B_crew_F
 	{
@@ -109,10 +101,6 @@ class CfgVehicles
 		respawnWeapons[] = {"hgun_PDW2000_F","hgun_mas_glock_F","Throw","Put","Binocular"};
 		Magazines[] = {"30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","Chemlight_green","Chemlight_green","Chemlight_green","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag"};
 		respawnMagazines[] = {"30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","Chemlight_green","Chemlight_green","Chemlight_green","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag"};
-		class EventHandlers
-		{
-			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_script.sqf""";
-		};
 	};
 	class NOR_Crew_Desert: NOR_Crew_WOOD
 	{
@@ -126,10 +114,6 @@ class CfgVehicles
 		uniformClass = "NOR_Uniform_Crew_Desert";
 		linkedItems[] = {"V_TacVest_khk","NOR_Helmet_Crew","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_TacVest_khk","NOR_Helmet_Crew","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
-		class EventHandlers
-		{
-			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_script.sqf""";
-		};
 	};
 	class NOR_MM_Wood: B_soldier_M_F
 	{
@@ -153,7 +137,7 @@ class CfgVehicles
 		respawnMagazines[] = {"20Rnd_mas_762x51_Stanag","20Rnd_mas_762x51_Stanag","20Rnd_mas_762x51_Stanag","20Rnd_mas_762x51_Stanag","20Rnd_mas_762x51_Stanag","20Rnd_mas_762x51_Stanag","20Rnd_mas_762x51_Stanag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","Chemlight_green","Chemlight_green","Chemlight_green","15Rnd_mas_9x21_Mag","15Rnd_mas_9x21_Mag","15Rnd_mas_9x21_Mag"};
 		class EventHandlers
 		{
-			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_script.sqf""";
+			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_standard_wood.sqf""";
 		};
 	};
 	class NOR_MM_Desert: NOR_MM_Wood
@@ -170,7 +154,7 @@ class CfgVehicles
 		respawnLinkedItems[] = {"NOR_Carrier_Standard_1_Desert","NOR_Booniehat_Desert","NOR_NVGoggles","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
 		class EventHandlers
 		{
-			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_script.sqf""";
+			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_standard_desert.sqf""";
 		};
 	};
 	class NOR_FSK_MM_Multi: NOR_MM_Wood
@@ -241,15 +225,15 @@ class CfgVehicles
 		uniformClass = "NOR_Uniform_Wood";
 		genericNames = "NOR_Names_Male";
 		backpack = "NOR_Backpack_UGL_Wood";
-		linkedItems[] = {"NOR_Carrier_Standard_2_Wood","NOR_Helmet_Wood","NOR_NVGoggles","ItemMap","ItemCompass","ItemGPS","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"NOR_Carrier_Standard_2_Wood","NOR_Helmet_Wood","NOR_NVGoggles","ItemMap","ItemCompass","ItemGPS","ItemWatch","ItemRadio"};
+		linkedItems[] = {"NOR_Carrier_Standard_2_Wood","NOR_Helmet_ECH_Grey","NOR_NVGoggles","ItemMap","ItemCompass","ItemGPS","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"NOR_Carrier_Standard_2_Wood","NOR_Helmet_ECH_Grey","NOR_NVGoggles","ItemMap","ItemCompass","ItemGPS","ItemWatch","ItemRadio"};
 		Weapons[] = {"NOR_HK416_UGL_RCO_IR","hgun_mas_glock_F","Throw","Put","Rangefinder"};
 		respawnWeapons[] = {"NOR_HK416_UGL_RCO_IR","hgun_mas_glock_F","Throw","Put","Rangefinder"};
 		Magazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","Chemlight_green","Chemlight_green","Chemlight_green","15Rnd_mas_9x21_Mag","15Rnd_mas_9x21_Mag","15Rnd_mas_9x21_Mag"};
 		respawnMagazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","Chemlight_green","Chemlight_green","Chemlight_green","15Rnd_mas_9x21_Mag","15Rnd_mas_9x21_Mag","15Rnd_mas_9x21_Mag"};
 		class EventHandlers
 		{
-			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_script.sqf""";
+			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_standard_wood.sqf""";
 		};
 	};
 	class NOR_Spotter_Wood: B_spotter_F
@@ -271,10 +255,6 @@ class CfgVehicles
 		respawnWeapons[] = {"NOR_HK416c_MRCO_IR_S_Wood","NOR_Glock_17_S","Throw","Put","Rangefinder"};
 		Magazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","SmokeShell","SmokeShell","Chemlight_green","Chemlight_green","Chemlight_green","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag"};
 		respawnMagazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","SmokeShell","SmokeShell","Chemlight_green","Chemlight_green","Chemlight_green","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag"};
-		class EventHandlers
-		{
-			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_script.sqf""";
-		};
 	};
 	class NOR_Spotter_Desert: NOR_Spotter_Wood
 	{
@@ -293,10 +273,6 @@ class CfgVehicles
 		respawnLinkedItems[] = {"V_TacVest_khk","NOR_NVGoggles","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
 		Weapons[] = {"NOR_HK416c_MRCO_IR_S_Desert","NOR_Glock_17_S","Throw","Put","Rangefinder"};
 		respawnWeapons[] = {"NOR_HK416c_MRCO_IR_S_Desert","NOR_Glock_17_S","Throw","Put","Rangefinder"};
-		class EventHandlers
-		{
-			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_script.sqf""";
-		};
 	};
 	class NOR_SL_Desert: NOR_SL_Wood
 	{
@@ -309,11 +285,11 @@ class CfgVehicles
 		author = "$STR_NOR_Author_Name";
 		uniformClass = "NOR_Uniform_Desert";
 		backpack = "NOR_Backpack_UGL_Desert";
-		linkedItems[] = {"NOR_Carrier_Standard_2_Desert","NOR_Helmet_Desert","NOR_NVGoggles","ItemMap","ItemCompass","ItemGPS","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"NOR_Carrier_Standard_2_Desert","NOR_Helmet_Desert","NOR_NVGoggles","ItemMap","ItemCompass","ItemGPS","ItemWatch","ItemRadio"};
+		linkedItems[] = {"NOR_Carrier_Standard_2_Desert","NOR_Helmet_ECH_Desert","NOR_NVGoggles","ItemMap","ItemCompass","ItemGPS","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"NOR_Carrier_Standard_2_Desert","NOR_Helmet_ECH_Desert","NOR_NVGoggles","ItemMap","ItemCompass","ItemGPS","ItemWatch","ItemRadio"};
 		class EventHandlers
 		{
-			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_script.sqf""";
+			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_standard_desert.sqf""";
 		};
 	};
 	class NOR_FSK_SL_Multi: NOR_SL_Wood
@@ -389,15 +365,15 @@ class CfgVehicles
 		uniformClass = "NOR_Uniform_Wood";
 		genericNames = "NOR_Names_Male";
 		backpack = "NOR_Backpack_AT_Wood";
-		linkedItems[] = {"NOR_Carrier_Standard_1_Wood","NOR_Helmet_Wood","NOR_NVGoggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"NOR_Carrier_Standard_1_Wood","NOR_Helmet_Wood","NOR_NVGoggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"NOR_Carrier_Standard_1_Wood","NOR_Helmet_ECH_Grey","NOR_NVGoggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"NOR_Carrier_Standard_1_Wood","NOR_Helmet_ECH_Grey","NOR_NVGoggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		Weapons[] = {"NOR_HK416_ACO_IR","hgun_mas_glock_F","mas_launch_maaws_F","Throw","Put","Binocular"};
 		respawnWeapons[] = {"NOR_HK416_ACO_IR","hgun_mas_glock_F","mas_launch_maaws_F","Throw","Put","Binocular"};
 		Magazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","Chemlight_green","Chemlight_green","Chemlight_green","15Rnd_mas_9x21_Mag","15Rnd_mas_9x21_Mag","15Rnd_mas_9x21_Mag"};
 		respawnMagazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","Chemlight_green","Chemlight_green","Chemlight_green","15Rnd_mas_9x21_Mag","15Rnd_mas_9x21_Mag","15Rnd_mas_9x21_Mag"};
 		class EventHandlers
 		{
-			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_script.sqf""";
+			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_standard_wood.sqf""";
 		};
 	};
 	class NOR_T_AT_Desert: NOR_T_AT_Wood
@@ -411,11 +387,11 @@ class CfgVehicles
 		author = "$STR_NOR_Author_Name";
 		uniformClass = "NOR_Uniform_Desert";
 		backpack = "NOR_Backpack_AT_Desert";
-		linkedItems[] = {"NOR_Carrier_Standard_1_Desert","NOR_Helmet_Desert","NOR_NVGoggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"NOR_Carrier_Standard_1_Desert","NOR_Helmet_Desert","NOR_NVGoggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"NOR_Carrier_Standard_1_Desert","NOR_Helmet_ECH_Desert","NOR_NVGoggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"NOR_Carrier_Standard_1_Desert","NOR_Helmet_ECH_Desert","NOR_NVGoggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		class EventHandlers
 		{
-			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_script.sqf""";
+			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_standard_desert.sqf""";
 		};
 	};
 	class NOR_FSK_AT_Multi: NOR_T_AT_Wood
@@ -491,15 +467,15 @@ class CfgVehicles
 		uniformClass = "NOR_Uniform_Wood";
 		genericNames = "NOR_Names_Male";
 		backpack = "NOR_Backpack_AR_Wood";
-		linkedItems[] = {"NOR_Carrier_Standard_1_Wood","NOR_Helmet_Wood","NOR_NVGoggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"NOR_Carrier_Standard_1_Wood","NOR_Helmet_Wood","NOR_NVGoggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"NOR_Carrier_Standard_1_Wood","NOR_Helmet_ECH_Grey","NOR_NVGoggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"NOR_Carrier_Standard_1_Wood","NOR_Helmet_ECH_Grey","NOR_NVGoggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		Weapons[] = {"NOR_M249_ACO_IR","hgun_mas_glock_F","Throw","Put","Binocular"};
 		respawnWeapons[] = {"NOR_M249_ACO_IR","hgun_mas_glock_F","Throw","Put","Binocular"};
 		Magazines[] = {"200Rnd_mas_556x45_T_Stanag","200Rnd_mas_556x45_T_Stanag","200Rnd_mas_556x45_T_Stanag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","Chemlight_green","Chemlight_green","Chemlight_green","15Rnd_mas_9x21_Mag","15Rnd_mas_9x21_Mag","15Rnd_mas_9x21_Mag"};
 		respawnMagazines[] = {"200Rnd_mas_556x45_T_Stanag","200Rnd_mas_556x45_T_Stanag","200Rnd_mas_556x45_T_Stanag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","Chemlight_green","Chemlight_green","Chemlight_green","15Rnd_mas_9x21_Mag","15Rnd_mas_9x21_Mag","15Rnd_mas_9x21_Mag"};
 		class EventHandlers
 		{
-			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_script.sqf""";
+			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_standard_wood.sqf""";
 		};
 	};
 	class NOR_T_AR_Desert: NOR_T_AR_Wood
@@ -513,11 +489,11 @@ class CfgVehicles
 		author = "$STR_NOR_Author_Name";
 		uniformClass = "NOR_Uniform_Desert";
 		backpack = "NOR_Backpack_AR_Desert";
-		linkedItems[] = {"NOR_Carrier_Standard_1_Desert","NOR_Helmet_Desert","NOR_NVGoggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"NOR_Carrier_Standard_1_Desert","NOR_Helmet_Desert","NOR_NVGoggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"NOR_Carrier_Standard_1_Desert","NOR_Helmet_ECH_Desert","NOR_NVGoggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"NOR_Carrier_Standard_1_Desert","NOR_Helmet_ECH_Desert","NOR_NVGoggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		class EventHandlers
 		{
-			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_script.sqf""";
+			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_standard_desert.sqf""";
 		};
 	};
 	class NOR_FSK_AR_Multi: NOR_T_AR_Wood
@@ -594,15 +570,15 @@ class CfgVehicles
 		uniformClass = "NOR_Uniform_Wood";
 		genericNames = "NOR_Names_Male";
 		backpack = "NOR_Backpack_Soldier_Wood";
-		linkedItems[] = {"NOR_Carrier_Standard_2_Wood","NOR_Helmet_Wood","NOR_NVGoggles","ItemMap","ItemCompass","ItemGPS","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"NOR_Carrier_Standard_2_Wood","NOR_Helmet_Wood","NOR_NVGoggles","ItemMap","ItemCompass","ItemGPS","ItemWatch","ItemRadio"};
+		linkedItems[] = {"NOR_Carrier_Standard_2_Wood","NOR_Helmet_ECH_Grey","NOR_NVGoggles","ItemMap","ItemCompass","ItemGPS","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"NOR_Carrier_Standard_2_Wood","NOR_Helmet_ECH_Grey","NOR_NVGoggles","ItemMap","ItemCompass","ItemGPS","ItemWatch","ItemRadio"};
 		Weapons[] = {"NOR_HK416_ACO_IR","NOR_M72_LAW","hgun_mas_glock_F","Throw","Put","Rangefinder"};
 		respawnWeapons[] = {"NOR_HK416_ACO_IR","NOR_M72_LAW","hgun_mas_glock_F","Throw","Put","Rangefinder"};
 		Magazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","Chemlight_green","Chemlight_green","Chemlight_green","15Rnd_mas_9x21_Mag","15Rnd_mas_9x21_Mag","15Rnd_mas_9x21_Mag"};
 		respawnMagazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","Chemlight_green","Chemlight_green","Chemlight_green","15Rnd_mas_9x21_Mag","15Rnd_mas_9x21_Mag","15Rnd_mas_9x21_Mag"};
 		class EventHandlers
 		{
-			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_script.sqf""";
+			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_standard_wood.sqf""";
 		};
 	};
 	class NOR_FTL_Desert: NOR_FTL_Wood
@@ -616,11 +592,11 @@ class CfgVehicles
 		author = "$STR_NOR_Author_Name";
 		uniformClass = "NOR_Uniform_Desert";
 		backpack = "NOR_Backpack_Soldier_Desert";
-		linkedItems[] = {"NOR_Carrier_Standard_2_Desert","NOR_Helmet_Desert","NOR_NVGoggles","ItemMap","ItemCompass","ItemGPS","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"NOR_Carrier_Standard_2_Desert","NOR_Helmet_Desert","NOR_NVGoggles","ItemMap","ItemCompass","ItemGPS","ItemWatch","ItemRadio"};
+		linkedItems[] = {"NOR_Carrier_Standard_2_Desert","NOR_Helmet_ECH_Desert","NOR_NVGoggles","ItemMap","ItemCompass","ItemGPS","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"NOR_Carrier_Standard_2_Desert","NOR_Helmet_ECH_Desert","NOR_NVGoggles","ItemMap","ItemCompass","ItemGPS","ItemWatch","ItemRadio"};
 		class EventHandlers
 		{
-			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_script.sqf""";
+			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_standard_desert.sqf""";
 		};
 	};
 	class NOR_FSK_FTL_Multi: NOR_FTL_Wood
@@ -696,15 +672,15 @@ class CfgVehicles
 		uniformClass = "NOR_Uniform_Wood";
 		genericNames = "NOR_Names_Male";
 		backpack = "NOR_Backpack_Soldier_Wood";
-		linkedItems[] = {"NOR_Carrier_Standard_2_Wood","NOR_Helmet_Wood","NOR_NVGoggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"NOR_Carrier_Standard_2_Wood","NOR_Helmet_Wood","NOR_NVGoggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"NOR_Carrier_Standard_2_Wood","NOR_Helmet_ECH_Grey","NOR_NVGoggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"NOR_Carrier_Standard_2_Wood","NOR_Helmet_ECH_Grey","NOR_NVGoggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		Weapons[] = {"NOR_HK416_ACO_IR","hgun_mas_glock_F","NOR_M72_LAW","Throw","Put","Binocular"};
 		respawnWeapons[] = {"NOR_HK416_ACO_IR","hgun_mas_glock_F","NOR_M72_LAW","Throw","Put","Binocular"};
 		Magazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","Chemlight_green","Chemlight_green","Chemlight_green","15Rnd_mas_9x21_Mag","15Rnd_mas_9x21_Mag","15Rnd_mas_9x21_Mag"};
 		respawnMagazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","Chemlight_green","Chemlight_green","Chemlight_green","15Rnd_mas_9x21_Mag","15Rnd_mas_9x21_Mag","15Rnd_mas_9x21_Mag"};
 		class EventHandlers
 		{
-			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_script.sqf""";
+			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_standard_wood.sqf""";
 		};
 	};
 	class NOR_T_S1_Desert: NOR_T_S1_Wood
@@ -718,11 +694,11 @@ class CfgVehicles
 		author = "$STR_NOR_Author_Name";
 		uniformClass = "NOR_Uniform_Desert";
 		backpack = "NOR_Backpack_Soldier_Desert";
-		linkedItems[] = {"NOR_Carrier_Standard_2_Desert","NOR_Helmet_Desert","NOR_NVGoggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"NOR_Carrier_Standard_2_Desert","NOR_Helmet_Desert","NOR_NVGoggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"NOR_Carrier_Standard_2_Desert","NOR_Helmet_ECH_Desert","NOR_NVGoggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"NOR_Carrier_Standard_2_Desert","NOR_Helmet_ECH_Desert","NOR_NVGoggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		class EventHandlers
 		{
-			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_script.sqf""";
+			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_standard_desert.sqf""";
 		};
 	};
 	class NOR_FSK_S1_Multi: NOR_T_S1_Wood
@@ -798,15 +774,15 @@ class CfgVehicles
 		uniformClass = "NOR_Uniform_Medic_Wood";
 		genericNames = "NOR_Names_Male";
 		backpack = "NOR_Backpack_Medic_Wood";
-		linkedItems[] = {"NOR_Carrier_Standard_1_Wood","NOR_Helmet_Wood","NOR_NVGoggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"NOR_Carrier_Standard_1_Wood","NOR_Helmet_Wood","NOR_NVGoggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"NOR_Carrier_Standard_1_Wood","NOR_Helmet_ECH_Grey","NOR_NVGoggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"NOR_Carrier_Standard_1_Wood","NOR_Helmet_ECH_Grey","NOR_NVGoggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		Weapons[] = {"NOR_HK416_ACO_IR","hgun_mas_glock_F","Throw","Put","Binocular"};
 		respawnWeapons[] = {"NOR_HK416_ACO_IR","hgun_mas_glock_F","Throw","Put","Binocular"};
 		Magazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","Chemlight_green","Chemlight_green","Chemlight_green","15Rnd_mas_9x21_Mag","15Rnd_mas_9x21_Mag","15Rnd_mas_9x21_Mag"};
 		respawnMagazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","Chemlight_green","Chemlight_green","Chemlight_green","15Rnd_mas_9x21_Mag","15Rnd_mas_9x21_Mag","15Rnd_mas_9x21_Mag"};
 		class EventHandlers
 		{
-			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_script.sqf""";
+			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_standard_wood.sqf""";
 		};
 	};
 	class NOR_T_MEDIC_Desert: NOR_T_MEDIC_Wood
@@ -820,11 +796,11 @@ class CfgVehicles
 		author = "$STR_NOR_Author_Name";
 		uniformClass = "NOR_Uniform_Medic_Desert";
 		backpack = "NOR_Backpack_Medic_Desert";
-		linkedItems[] = {"NOR_Carrier_Standard_1_Desert","NOR_Helmet_Desert","NOR_NVGoggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"NOR_Carrier_Standard_1_Desert","NOR_Helmet_Desert","NOR_NVGoggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"NOR_Carrier_Standard_1_Desert","NOR_Helmet_ECH_Desert","NOR_NVGoggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"NOR_Carrier_Standard_1_Desert","NOR_Helmet_ECH_Desert","NOR_NVGoggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		class EventHandlers
 		{
-			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_script.sqf""";
+			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_standard_desert.sqf""";
 		};
 	};
 	class NOR_FSK_MEDIC_Multi: NOR_T_MEDIC_Wood
@@ -906,10 +882,6 @@ class CfgVehicles
 		respawnWeapons[] = {"NOR_HK416_ACO_IR","hgun_mas_glock_F","Throw","Put","Rangefinder"};
 		Magazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","Chemlight_green","Chemlight_green","Chemlight_green","15Rnd_mas_9x21_Mag","15Rnd_mas_9x21_Mag","15Rnd_mas_9x21_Mag"};
 		respawnMagazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","Chemlight_green","Chemlight_green","Chemlight_green","15Rnd_mas_9x21_Mag","15Rnd_mas_9x21_Mag","15Rnd_mas_9x21_Mag"};
-		class EventHandlers
-		{
-			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_script.sqf""";
-		};
 	};
 	class NOR_T_CO_Desert: NOR_T_CO_Wood
 	{
@@ -924,10 +896,6 @@ class CfgVehicles
 		backpack = "NOR_Backpack_Soldier_Desert";
 		linkedItems[] = {"NOR_Carrier_Standard_1_Desert","NOR_Beret_Officer","NOR_NVGoggles","ItemMap","ItemCompass","ItemGPS","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"NOR_Carrier_Standard_1_Desert","NOR_Beret_Officer","NOR_NVGoggles","ItemMap","ItemCompass","ItemGPS","ItemWatch","ItemRadio"};
-		class EventHandlers
-		{
-			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_script.sqf""";
-		};
 	};
 	class NOR_T_NCO_Wood: I_officer_F
 	{
@@ -950,10 +918,6 @@ class CfgVehicles
 		respawnWeapons[] = {"NOR_HK416_UGL_RCO_IR","hgun_mas_glock_F","Throw","Put","Rangefinder"};
 		Magazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","Chemlight_green","Chemlight_green","Chemlight_green","15Rnd_mas_9x21_Mag","15Rnd_mas_9x21_Mag","15Rnd_mas_9x21_Mag"};
 		respawnMagazines[] = {"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","HandGrenade","HandGrenade","SmokeShell","SmokeShell","Chemlight_green","Chemlight_green","Chemlight_green","15Rnd_mas_9x21_Mag","15Rnd_mas_9x21_Mag","15Rnd_mas_9x21_Mag"};
-		class EventHandlers
-		{
-			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_script.sqf""";
-		};
 	};
 	class NOR_T_NCO_Desert: NOR_T_NCO_Wood
 	{
@@ -968,10 +932,6 @@ class CfgVehicles
 		backpack = "NOR_Backpack_UGL_Desert";
 		linkedItems[] = {"NOR_Carrier_Standard_1_Desert","NOR_Beret_Officer","NOR_NVGoggles","ItemMap","ItemCompass","ItemGPS","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"NOR_Carrier_Standard_1_Desert","NOR_Beret_Officer","NOR_NVGoggles","ItemMap","ItemCompass","ItemGPS","ItemWatch","ItemRadio"};
-		class EventHandlers
-		{
-			init = "(_this select 0) execVM ""\NOR_Randomisation\data\scripts\master_script.sqf""";
-		};
 	};
 	class NOR_FSK_Breacher_Multi: NOR_FSK_S1_Multi
 	{

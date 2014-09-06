@@ -40,7 +40,7 @@ switch (_uniform ) do
 		};
 };
 // Randomize Vest
-_vest = (ceil (random 8));
+_vest = (ceil (random 6));
 switch (_vest ) do
 {
 	case 1: {
@@ -50,21 +50,15 @@ switch (_vest ) do
 		_this addvest "NOR_Carrier_Standard_1_Multi";
 		};
 	case 3: {
-		_this addvest "NOR_Carrier_Standard_2_Black";
-		};
-	case 4: {
-		_this addvest "NOR_Carrier_Standard_1_Black";
-		};
-	case 5: {
 		_this addvest "NOR_Carrier_Standard_2_Wood";
 		};
-	case 6: {
+	case 4: {
 		_this addvest "NOR_Carrier_Standard_1_Wood";
 		};
-	case 7: {
+	case 5: {
 		_this addvest "NOR_Carrier_Standard_2_Green";
 		};
-	case 8: {
+	case 6: {
 		_this addvest "NOR_Carrier_Standard_1_Green";
 		};
 };
