@@ -1,0 +1,16 @@
+name = "Norwegian Units";
+picture = "mod.paa";
+actionName = "Website";
+action = "http://forums.bistudio.com/showthread.php?179995-Norwegian-Units";
+description = "BIS Forum: http://forums.bistudio.com/showthread.php?179995-Norwegian-Units<br />GitHub: https://github.com/Vasilyevich/Norwegian_Units";
+logo = "mod.paa";
+logoOver = "mod.paa";
+tooltip = "Norwegian Units";
+tooltipOwned = "Norwegian Units Owned";
+overview = "This Mod brings you the Royal Norwegian Army for Arma 3. Including normal military in both woodland and desert camouflage. But also specialized forces like sniper teams, FSK (Forsvarets spesialkommando), MJK (Marinejegerkommandoen) in various camouflages. To fight the common Arma 3 'clone soldier' gear randomisation routines give each unit a unique look. And ofcourse there are vehicles, Insignias and much more.";
+author = "Vasilyevich";
+overviewPicture = "mod.paa";
+overviewText = "Norwegian Units overviewText";
+//dir = "Norwegian_Units";
+//infoPages[] = {};
+overviewFootnote = "";
