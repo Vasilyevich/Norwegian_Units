@@ -80,9 +80,9 @@ class CfgVehicles
 		_generalMacro = "B_Soldier_F";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "Special (Desert)";
+		displayName = "Sniper (Desert)";
 		identityTypes[] = {"LanguageENG_F","Head_EURO"};
-		vehicleClass = "Desert_Fireteam";
+		vehicleClass = "Special";
 		uniformClass = "NOR_Ghillie_Desert";
 		author = "$STR_NOR_Author_Name";
 	};
