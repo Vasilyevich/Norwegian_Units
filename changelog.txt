@@ -1,0 +1,101 @@
+v2.0 - Unreleased (WIP)
+- New: AA-Tank, Artilery-Tank, Amphibious AFV (Wood/Desert)
+- New: UGV variants (Wood/Desert)
+- New: Insignias in various camouflages (Medic, FSK, MJK, Flag, Viking)
+- New: Uniform randomisation routines
+- New: Woodland (M98) and desert (M03) camouflage textures
+- New: Uniform variants for FSK and MJK units (Grey, Coyote)
+- New: Work in progress german translation
+
+- Changed: Split the mod into seperate PBO files for easier modification
+- Changed: Unified wood and desert crewman (incl. new uniform
+- Changed: Uniform code from scratch to bring it in line with vanilla code
+- Changed: All equipment code
+- Changed: All vehicle textures (new woodland camo pattern)
+- Changed: All uniform textures for more details and weathering
+- Changed: Parts of the backpack code
+- Changed: Some of the backpack textures
+- Changed: Icons for most of the custom items
+- Changed: Existing randomisation routines
+- Changed: Standard units now have the ECH helmet
+- Changed: "Men" categorie names reworked slightly
+- Changed: mod.cpp code
+
+- Misc: The source data of the mod is now available on GitHub
+- Misc: The mod is now modular (in case you don't want vehicles or the randomisation)
+- Misc: Reworked (new) mod logo
+
+v1.0 - Jul 6 2014
+- Misc: Initial Release of the mod
+
+v1.1 & v1.1hotfix - Jul 8 2014
+- Fixed: missing ".paa" texture endings
+
+- New: Marksman class (Wood/Desert)
+- New: "Norwegian Supply Box"
+- New: Officer Beret
+- New: Bonniehat (Wood/Desert)
+- New: Custom item icons
+- New: Mod.cpp file incl. mod icon
+
+- Changed: "Autorifleman Mk48" to ""Rifleman AT"
+- Changed: Loadouts of some units
+- Changed: Classnames of some units
+- Changed: "Weathered" look for all uniform textures
+- Changed: USP as standard pistol for all units
+
+v1.2 - Jul 9 2014
+- Fixed: Zeus compatibility of all units
+
+- New: Tracked APC (Wood/Desert)
+- New: MBT (Wood/Desert)
+- New: Crewman class (Wood/Desert)
+- New: Norwegian names for AI units
+
+- Changed: Glock as standard pistol for all units (again)
+- Changed: Renamed "Fireteam (Wood/Desert)" to "Soldiers (Wood/Desert)" for editor placement
+- Changed: moved the "Command (Wood/Desert)" units to "Soldiers (Wood/Desert)" for editor placement
+
+v1.3 - Jul 12 2014
+- Fixed: Typo in group selection fixed (thanks to Lstor)
+
+- New: "FSK" special forces in multicolor "multi and black camouflage
+- New: "Breacher" class (Multi/Black)
+- New: "Explosive Specialist" class (Multi/Black)
+- New: "Sniper" class incl. ghillie suit (Wood/Desert)
+
+- Changed: Renamed "Soldiers (Wood/Desert)" to "Men (Wood/Desert)" for editor placement
+- Changed: Corrections and additions to the norwegian names (thanks to Lstor)
+- Changed: All vehicle camouflage textures
+
+- Misc: Binarized mod
+- Misc: Signed mod
+- Misc: Included a classname list file
+- Misc: Included a Loadout Editor for Arma 3 (LEA) addon
+
+v1.3b - Jul 15 2014
+- Fixed: AT desert and black backpack (thanks to vrakpant)
+
+v1.4 - Jul 25 2014
+- Fixed: Various config bugs
+- Fixed: ALiVE compatibility of all units
+- Fixed: MCC  compatibility of all groups
+
+- New: "MJK" special forces in blue camouflage
+- New: "Spotter" class incl "Sniper" group (Wood/Desert)
+- New: "M72 LAW" disposable launcher (thanks to Lervik and Tier1ops.eu and the BWMod Team))
+- New: Randomized weapon camouflage for all units
+- New: Randomized facewar and helmets for "FSK" and "MJK" units
+- New: Three flag poles (Norwegian, FSK and MJK)
+- New: "Headphone Cap" (Multi/Black/Blue) and other items
+
+- Changed: Adjusted flag patch texture on all uniforms
+- Changed: Units who use silencers have them in the inventory rather than on their weapon
+- Changed: All units are now based on BLUFOR units rather than Independent ones.
+- Changed: Adjustments to the "identity" preventing units from having old civ. faces and civ. glasses
+
+- Misc: The mod now requires "Community Base addons A3" (CBA)
+
+v1.4b & v1.4c - Jul 26/27 2014
+- Fixed: Various backpack classnames
+- Fixed: config bugs preventing placement of the "Norwegian Supply Box"
