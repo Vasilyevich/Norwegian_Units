@@ -1,4 +1,4 @@
-v2.0 - Unreleased (WIP)
+v2.0 - Sept 11 2014
 - New: AA-Tank, Artilery-Tank, Amphibious AFV (Wood/Desert)
 - New: UGV variants (Wood/Desert)
 - New: All Special Uniforms in long and short sleeve versions
