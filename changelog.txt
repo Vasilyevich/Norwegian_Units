@@ -1,6 +1,7 @@
 v2.0 - Unreleased (WIP)
 - New: AA-Tank, Artilery-Tank, Amphibious AFV (Wood/Desert)
 - New: UGV variants (Wood/Desert)
+- New: All Special Uniforms in long and short sleeve versions
 - New: Insignias in various camouflages (Medic, FSK, MJK, Flag, Viking)
 - New: Uniform randomisation routines
 - New: Woodland (M98) and desert (M03) camouflage textures
@@ -20,10 +21,12 @@ v2.0 - Unreleased (WIP)
 - Changed: Standard units now have the ECH helmet
 - Changed: "Men" categorie names reworked slightly
 - Changed: mod.cpp code
+- Changed: mod.paa
 
 - Misc: The source data of the mod is now available on GitHub
 - Misc: The mod is now modular (in case you don't want vehicles or the randomisation)
 - Misc: Reworked (new) mod logo
+- Misc: Mod is now licensed under a 'Arma Public License Share Alike'
 
 v1.0 - Jul 6 2014
 - Misc: Initial Release of the mod
