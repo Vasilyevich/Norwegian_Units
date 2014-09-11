@@ -3,7 +3,7 @@ class CfgPatches
 	class NOR_Equip
 	{
 		units[] = {};
-		weapons[] = {"NOR_Carrier_Standard_1_Green","NOR_Carrier_Standard_2_Green","NOR_Cap_Headphones_FSK_Coyote","NOR_Cap_Headphones_FSK_Grey","NOR_Carrier_Standard_2_Desert","NOR_Carrier_Standard_1_Desert","NOR_Carrier_Standard_2_Wood","NOR_Carrier_Standard_1_Wood","NOR_Cap_Headphones_MJK_Navy","NOR_Cap_Headphones_FSK_Black","NOR_Cap_Headphones_FSK_Multi","NOR_Helmet_ECH_Black","NOR_Helmet_ECH_Multi","NOR_Helmet_ECH_Grey","NOR_Helmet_ECH_Desert","NOR_Helmet_ECH_Light_Black","NOR_Helmet_ECH_Light_Multi","NOR_Helmet_ECH_Light_Grey","NOR_Helmet_ECH_Light_Desert","NOR_Booniehat_Desert","NOR_Booniehat_Wood","NOR_Beret_Officer","NOR_Helmet_Desert","NOR_Helmet_Wood","NOR_Helmet_Crew","NOR_NVGoggles"};
+		weapons[] = {"NOR_TacVest_Multi","NOR_Carrier_Standard_1_Green","NOR_Carrier_Standard_2_Green","NOR_Cap_Headphones_FSK_Coyote","NOR_Cap_Headphones_FSK_Grey","NOR_Carrier_Standard_2_Desert","NOR_Carrier_Standard_1_Desert","NOR_Carrier_Standard_2_Wood","NOR_Carrier_Standard_1_Wood","NOR_Cap_Headphones_MJK_Navy","NOR_Cap_Headphones_FSK_Black","NOR_Cap_Headphones_FSK_Multi","NOR_Helmet_ECH_Black","NOR_Helmet_ECH_Multi","NOR_Helmet_ECH_Grey","NOR_Helmet_ECH_Desert","NOR_Helmet_ECH_Light_Black","NOR_Helmet_ECH_Light_Multi","NOR_Helmet_ECH_Light_Grey","NOR_Helmet_ECH_Light_Desert","NOR_Booniehat_Desert","NOR_Booniehat_Wood","NOR_Beret_Officer","NOR_Helmet_Desert","NOR_Helmet_Wood","NOR_Helmet_Crew","NOR_NVGoggles"};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"A3_Characters_F"};
 	};
